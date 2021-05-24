@@ -782,14 +782,9 @@ td img {
 
 
 /*LOGO*/
-
-/*
-margin-top: 30px;
-  margin-left: 110px;
-  margin-right: 90px;
-*/
-
 .sektion4 {
+  margin-left: 110px;
+  margin-right: 39px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -824,7 +819,7 @@ margin-top: 30px;
   padding-top: 4.5%;
   width: 80%;
   height: 20%;
-  background-color: #e3bbab;
+  background-color:#BB86FC;
   margin-left: 10%;
 }
 
