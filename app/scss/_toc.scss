@@ -1,0 +1,141 @@
+.topnavContainer {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  padding: 50px 50px 20px 20px;
+  align-items: center;
+  justify-self: center;
+
+  h3 {
+    margin: 0;
+  }
+}
+
+.whitelogo {
+  height: 60px;
+}
+.sidemenu {
+  height: 40px;
+  margin-top: 8px;
+}
+.purpleLine {
+  border: 3px solid $clr-light-purple;
+  max-width: 89.5%;
+  margin: 0 0 0 6.2%;
+}
+
+.breadNsearch {
+  display: grid;
+  margin-top: 10px;
+  grid-template-columns: 35% 35% 30%;
+  input {
+    grid-column: 3/4;
+    margin-right: 14%;
+    padding: 12px;
+    grid-row: 1/2;
+    border: 2px solid $clr-light-purple;
+    background-color: $clr-sheet-black;
+  }
+  p {
+    margin-left: 19%;
+    margin-top: 1%;
+  }
+  img {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-self: end;
+    margin: 3% 18%;
+    width: 20px;
+    height: 20px;
+  }
+}
+/* Dropdown Button */
+.dropbtn {
+  font-size: $font-l;
+  font-size: $font-l-fallback;
+  padding: 0;
+  background-color: $clr-grey-black;
+  color: $clr-text;
+  border: none;
+  cursor: pointer;
+
+  hr {
+    border: 2px solid $clr-text;
+    margin-top: 0;
+  }
+}
+.dropdownGrid {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-template-rows: repeat(5, 1fr);
+  padding: 4% 4% 4% 6%;
+
+  &__frontIllu {
+    grid-row: 1/6;
+    grid-column: 2/3;
+    width: 90%;
+    height: auto;
+    justify-self: end;
+  }
+  &__gridItem1 {
+    grid-column: 1 / 2;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin-top: 5%;
+
+  &__dropbtn {
+    font-size: $font-l;
+    font-size: $font-l-fallback;
+    padding: 0;
+    background-color: $clr-grey-black;
+    color: $clr-text;
+    border: none;
+    cursor: pointer;
+
+    hr {
+      border: 2px solid $clr-text;
+      margin-top: 0;
+    }
+  }
+
+  &__dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $clr-grey-black;
+    min-width: 160px;
+    width: 400px;
+    z-index: 1;
+    margin-top: -15px;
+    a {
+      color: $clr-text;
+      padding: 16.5px 18px;
+      margin-left: 20px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+      font-size: $font-med;
+      font-size: $font-med-fallback;
+    }
+    a:hover {
+      background: $clr-sheet-black;
+    }
+
+    img {
+      float: left;
+      height: 250px;
+      margin-top: 20px;
+    }
+  }
+}
+.show {
+  display: block;
+}
+
+.numbermenu {
+  float: left;
+  margin: 5% 0 0 1%;
+}
