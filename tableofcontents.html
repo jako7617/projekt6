@@ -6,7 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="dist/css/reset.css" />
     <link rel="stylesheet" href="dist/css/style.css" />
+    <script src="app/script/script.js" defer></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <div class="topnavContainer">
+          <a href=""
+            ><img
+              src="images/icons/sidemenu.svg"
+              class="sidemenu"
+              alt="Sidemenu dots"
+              loading="lazy"
+              decoding="async"
+          /></a>
+          <h3>TABLE OF CONTENTS - Flight Assistant Manual</h3>
+          <a href="">
+            <img
+              src="images/white-quadsat.svg"
+              class="whitelogo"
+              alt="Sidemenu dots"
+              loading="lazy"
+              decoding="async"
+          /></a>
+        </div>
+        <hr class="purpleLine" />
+        <div class="breadNsearch">
+          <p>Table of contents /</p>
+          <input type="text" placeholder="Search.." /><img
+            src="images/icons/search.svg"
+            class="whitelogo"
+            alt="Sidemenu dots"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="dropdownGrid">
+        <div class="dropdownGrid__gridItem1">
+          <h3 class="numbermenu"><b>01</b></h3>
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropdown__dropbtn">
+              New mission
+              <hr />
+            </button>
+
+            <div id="myDropdown" class="dropdown__dropdown-content">
+              <img
+                src="images/icons/dropdownicon.svg"
+                alt="Sidemenu dots"
+                loading="lazy"
+                decoding="async"
+              />
+              <a href="#">Newly created mission</a>
+              <a href="#">Caution</a>
+              <a href="#">Equipment</a>
+              <a href="#">Operator</a>
+              <a href="#">Flexibility and range</a>
+            </div>
+          </div>
+        </div>
+        <img
+          src="images/placeholder.png"
+          class="dropdownGrid__frontIllu"
+          alt="Sidemenu dots"
+          loading="lazy"
+          decoding="async"
+        />
+      </div>
+    </main>
+  </body>
 </html>
