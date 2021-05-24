@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <title>Styleguide</title>
+    <script src="script/script1.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    /> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="header-brand">Styleguide</a>
+      <nav>
+        <ul>
+          <li><a href="farver.html">FARVER</a></li>
+          <li><a href="typografi.html">TYPOGRAFI</a></li>
+          <li><a href="knapper.html">KNAPPER</a></li>
+          <li><a href="logo.html">LOGO</a></li>
+          <li><a href="ikoner.html">IKONER</a></li>
+          <li><a href="layout.html">LAYOUT</a></li>
+          <li><a href="formular.html">FORMULAR</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+    <h3>Knapper</h3>
+    <section class="sektion5">
+      <div class="btnsGridContainer">
+        <div class="kode-overskrift1"> <h3>Kode</h3></div>
+        <div class="btnsGridItem1">
+          <h4>Login ind med email</h4>
+          <br>
+          <button
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='#'"
+          >
+            <img
+              class="emailIcon"
+              src="icons1/email.png"
+              alt="Email ikon"
+            />Log ind med email
+          </button>
+          <p class="paragrafbox1">
+            <br>
+            <b>Anvendelse:</b>
+            <br>
+            Denne knap bliver anvendt på index-siden til, at man kan logge ind med <br> sin e-mail.
+          </p>
+        </div>
+        <div class="farveboks1"></div>
+        <div class="kodeboksen1">
+          <br>
+          <br>
+          <b>HTML:</b> <br>
+            &lt;button
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='#'"&gt; <br>
+            <br/>
+            &lt;img
+            class="emailIcon"
+            src="icons1/email.png"
+            alt="Email ikon"/&gt; <br>Log ind med email
+            &lt;/button&gt; 
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+            <br>
+            .emailIcon { <br>
+              width: 30px; <br>
+              margin-right: 10px; <br>
+              vertical-align: middle; <br>
+            } <br>
+            <br>
+        </div>
+        <div class="btnsGridItem2">
+          <br>
+          <h4>Log ind med mobil nr.</h4>
+          <br>
+          <button
+            type="button"
+            class="btnLoginNr"
+            onclick="document.location='#'"
+          >
+            <img
+              class="emailIcon2"
+              src="icons1/phone.png"
+              alt="teleikon"
+            />Log ind med mobil nr.
+          </button>
+          <p class="paragrafbox2">
+            <br>
+            <b>Anvendelse:</b>
+            <br>
+            Denne knap bliver anvendt på index-siden til, at man kan logge ind <br> med sit telefonnummer.
+          </p>
+        </div>
+        <div class="farveboks2"></div>
+        <div class="kodeboksen2">
+          <br>
+          <br>
+          <b>HTML:</b> <br>
+            &lt;button
+            type="button"
+            class="btnLoginNr"
+            onclick="document.location='opretbruger.html'"&gt; <br>
+            <br/>
+            &lt;img
+              class="phoneIcon"
+              src="assets/icons/phone.png"
+              alt="Email ikon"/
+              &gt; <br>Log ind med mobil nr.
+            &lt;/button&gt; 
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+            <br>
+            <br>
+        </div>
+        <div class="btnsGridItem3">
+          <br>
+          <h4>Ny bruger knap</h4>
+          <br>
+          <button
+            type="button"
+            class="btnCreate"
+            onclick="document.location='opretbruger.html'"
+          >
+            Ny bruger
+          </button>
+        <p class="paragrafbox3">
+          <br>
+          <b>Anvendelse;</b>
+          <br>
+          Denne knap bliver anvendt på index-siden til at oprette en ny bruger. 
+        </p>
+      </div>
+      <div class="farveboks3"></div>
+      <div class="kodeboksen3">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button
+        type="button"
+        class="btnCreate"
+        onclick="document.location='opretbruger.html'"
+        &gt; Ny bruger 
+        &lt;/button&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .btnLoginEmail, <br>
+        .btnLoginNr, <br>
+        .btnBook, <br>
+        .btnTops { <br>
+          display: block; <br>
+          background-color: #e3bbab; <br>
+          font-weight: 700; <br>
+          border: none; <br>
+          width: 250px; <br>
+          height: 50px; <br>
+          border-radius: 15px; <br>
+          font-size: 16px; <br>
+          margin: 10px auto; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          color: #1f2d46; <br>
+          align-self: center; <br>
+          justify-self: center; <br>
+        } <br>
+        <br>
+        .phoneIcon {<br>
+          width: 25px; <br>
+          margin-right: 10px; <br>
+          vertical-align: middle; <br>
+        } <br>
+      </div>
+
+
+        <div class="btnsGridItem4">
+          <br>
+          <h4>Fortsæt som gæst knap</h4>
+          <br>
+          <a class="btnGuest" onclick="document.location='forside.html'">
+            Fortsæt som gæst
+          </a>
+        <p class="paragrafbox4">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på index-siden til, hvis man ikke har lyst til at oprette en bruger, men blot at kigge i app’en og se, hvad det går ud på. Man kan dog kun booke en tid, hvis man opretter en bruger. 
+        </p>
+      </div>
+      <div class="farveboks4"></div>
+      <div class="kodeboksen4">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;a class="btnGuest" onclick="document.location='forside.html'" 
+        &gt; Fortsæt som gæst
+        &lt;/a&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .btnGuest { <br>
+          color: #f1f1e2; <br>
+          font-weight: 500; <br>
+        } <br>
+       </div>
+
+        <div class="btnsGridItem5">
+          <br>
+          <h4>Ok knap</h4>
+          <br>
+          <button
+            type="button"
+            class="btnFilter"
+            onclick="document.location='booking.html'"
+          >
+            Ok
+          </button>
+        <p class="paragrafbox5">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt til at godkende  valg i drop down-menu og til filtrer-sidemenu. 
+        </p>
+      </div>
+      <div class="farveboks5"></div>
+      <div class="kodeboksen5">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button
+        type="button"
+        class="btnFilter"
+        onclick="document.location='booking.html'"
+        &gt; Ok
+        &lt;/button&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .btnFilter { <br>
+          grid-column: 1 / 4; <br>
+          align-self: center; <br>
+          justify-self: center; <br>
+          display: block; <br>
+          background-color: #e3bbab; <br>
+          font-weight: bold; <br>
+          border: none; <br>
+          width: 150px; <br>
+          height: 50px; <br>
+          border-radius: 15px; <br>
+          font-size: 16px; <br>
+          margin: 35px 0; <br>
+          font-family: "Montserrat", sans-serif; <br>
+        } <br>
+        </div>
+
+        <div class="btnsGridItem6">
+          <br>
+          <h4>Book knap</h4>
+          <br>
+          <button
+          type="button"
+          class="btnBook"
+          onclick="document.location='confirmation.html'"
+        >
+          Book
+        </button>
+        <p class="paragrafbox6">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på book tid-siden til at booke en behandling, <br> tid og frisør hos en frisørsalon.
+        </p>
+      </div>
+      <div class="farveboks6"></div>
+      <div class="kodeboksen6">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button
+        type="button"
+        class="btnBook"
+        onclick="document.location='confirmation.html'"
+        &gt; Book
+        &lt;/button&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .btnLoginEmail, <br>
+        .btnLoginNr, <br>
+        .btnBook, <br>
+        .btnTops { <br>
+          background-color: #e3bbab; <br>
+          font-weight: 700; <br>
+          border: none; <br>
+          width: 250px; <br>
+          height: 50px; <br>
+          border-radius: 15px; <br>
+          font-size: 16px; <br>
+          margin: 10px auto; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          color: #1f2d46; <br>
+          align-self: center; <br>
+          justify-self: center; <br>
+        } <br>
+        <br>
+      </div>
+
+        <div class="btnsGridItem7">
+          <br>
+          <h4>REDIGER BOOKING knap</h4>
+          <br>
+          <button
+            type="button"
+            class="redigerBooking"
+            onclick="document.location='edittime.html'"
+          > REDIGER BOOKING
+          </button>
+        <p class="paragrafbox7">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på Mine tider-siden til at redigere sin booking enten i form af at ændre sin behandling, tid og frisør eller melde afbud. 
+        </p>
+        </div>
+        <div class="farveboks7"></div>
+        <div class="kodeboksen7">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button
+        type="button"
+        class="redigerBooking"
+        onclick="document.location='edittime.html'"
+        &gt; REDIGER BOOKING
+        &lt;/button&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        redigerBooking { <br>
+          grid-column: 2 / 3; <br>
+          grid-row: 2 / 3; <br>
+          display: block; <br>
+          background-color: #e3bbab; <br>
+          border: none; <br>
+          width: 55px; <br>
+          height: 55px; <br>
+          border-radius: 15px; <br>
+          font-size: 10px; <br>
+          margin: 25px 0 0 25px; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          color: #1f2d46; <br>
+        } <br>
+        <br>
+      </div>
+
+        <div class="btnsGridItem8">
+          <br>
+          <h4>BOOK IGEN knap</h4>
+          <br>
+          <button
+          type="button"
+          class="bookIgen"
+          onclick="document.location='bookagain.html'"
+        >
+          BOOK IGEN
+        </button>
+        <p class="paragrafbox8">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på Mine tider-siden til at booke en tid igen ved en frisør, man tidligere har benyttet. 
+        </p>
+        </div>
+        <div class="farveboks8"></div>
+        <div class="kodeboksen8">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button
+        type="button"
+        class="bookIgen"
+        onclick="document.location='bookagain.html'"
+        &gt; BOOK IGEN
+        &lt;/button&gt;
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .bookIgen { <br>
+          grid-column: 2 / 3; <br>
+          grid-row: 1 / 2; <br>
+        } <br>
+        
+        .bookIgen { <br>
+          display: block; <br>
+          background-color: #e3bbab; <br>
+          border: none; <br>
+          width: 55px; <br>
+          height: 55px; <br>
+          border-radius: 15px; <br>
+          font-size: 10px; <br>
+          margin: 25px 0 0 25px; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          color: #1f2d46; <br>
+        } <br>
+      </div>
+
+        <div class="btnsGridItem9">
+          <br>
+          <h4>Meld afbud knap</h4>
+          <br>
+          <button
+            id="cancelBtn"
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='edittime.html'"
+          >
+            Meld Afbud
+          </button>
+          <p class="paragrafbox9">
+            <br>
+            <b>Anvendelse:</b>
+            <br>
+            Denne knap bliver anvendt på Rediger-siden til at melde afbud. 
+          </p>
+          </div>
+          <div class="farveboks9"></div>
+          <div class="kodeboksen9">
+          <br>
+          <br>
+          <b>HTML:</b> <br>
+            &lt;button
+            id="cancelBtn"
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='edittime.html'"
+            &gt; Meld Afbud
+            &lt;/button&gt;
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+            <br>
+            </div>
+
+        <div class="btnsGridItem10">
+          <br>
+          <h4>Anuller knap</h4>
+          <br>
+          <button
+          type="button"
+          class="btnLoginEmail"
+          onclick="document.location='edittime.html'"
+        >
+          Annuller
+        </button>
+          <p class="paragrafbox10">
+            <br>
+            <b>Anvendelse:</b>
+            <br>
+            Denne knap bliver anvendt på Rediger-siden under ‘Meld afbud’ til at annullere, at man er ved at melde afbud.
+          </p>
+          </div>
+          <div class="farveboks10"></div>
+          <div class="kodeboksen10">
+          <br>
+          <br>
+          <b>HTML:</b> <br>
+            &lt;button
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='edittime.html'"
+            &gt; Anuller
+            &lt;/button&gt;
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+            <br>
+            </div>
+
+        <div class="btnsGridItem11">
+          <br>
+          <h4>4-cifret Kode knap</h4>
+          <br>
+          <button
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='skiftkode.html'"
+          > Skift 4-cifret kode
+          </button>
+        <p class="paragrafbox11">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på profil-siden til at skifte sin kode. 
+        </p>
+        </div>
+        <div class="farveboks11"></div>
+        <div class="kodeboksen11">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+            &lt;button
+            type="button"
+            class="btnLoginEmail"
+            onclick="document.location='skiftkode.html'"
+            &gt; Skift 4-cifret kode
+            &lt;/button&gt;
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+       </div>
+
+        <div class="btnsGridItem12">
+        <br>
+        <h4>Gem knap</h4>
+        <br>
+        <button type="button" class="btnLoginEmail" onclick="document.location='#'">
+          Gem
+        </button>
+        <p class="paragrafbox12">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver anvendt på profil-siden til at gemme sine ændringer. 
+        </p>
+        </div>
+        <div class="farveboks12"></div>
+        <div class="kodeboksen12">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;button type="button" class="btnLoginEmail" onclick="document.location='#'"
+            &gt; Gem
+            &lt;/button&gt;
+            <br>
+            <br>
+            <b>CSS:</b> <br>
+            .btnLoginEmail, <br>
+            .btnLoginNr, <br>
+            .btnBook, <br>
+            .btnTops { <br>
+              display: block; <br>
+              background-color: #e3bbab; <br>
+              font-weight: 700; <br>
+              border: none; <br>
+              width: 250px; <br>
+              height: 50px; <br>
+              border-radius: 15px; <br>
+              font-size: 16px; <br>
+              margin: 10px auto; <br>
+              font-family: "Montserrat", sans-serif; <br>
+              color: #1f2d46; <br>
+              align-self: center; <br>
+              justify-self: center; <br>
+            } <br>
+          </div>
+
+        <div class="btnsGridItem13">
+        <br>
+        <h4>Swipe knap</h4>
+        <br>
+        <div class="profileContainer">
+          <div class="">
+            <label class="toggle">
+              <input class="toggleswitch" type="checkbox" />
+              <span class="roundbutton"></span>
+            </label>
+            <label class="toggle">
+              <input class="toggleswitch" type="checkbox" />
+              <span class="roundbutton"></span>
+            </label>
+            <label class="toggle">
+              <input class="toggleswitch" type="checkbox" />
+              <span class="roundbutton"></span>
+            </label>
+          </div>
+          <div class="sliderText">
+            <p>Slå touchID til</p>
+            <p>Påmindelser</p>
+            <p>Synkroniser med min kalender</p>
+          </div>
+        </div>
+        <p class="paragrafbox13">
+          <br>
+          <b>Anvendelse:</b>
+          <br>
+          Denne knap bliver brugt på profil-siden til at slå funktioner som f.eks. påmindelser til og fra. 
+        </p>
+        </div>
+        <div class="farveboks13"></div>
+        <div class="kodeboksen13">
+        <br>
+        <br>
+        <b>HTML:</b> <br>
+        &lt;div class="profileContainer"&gt; <br>
+        &lt;div class=""&gt; <br>
+        &lt;label class="toggle"&gt; <br>
+        &lt;input class="toggleswitch" type="checkbox" /&gt; <br>
+        &lt;span class="roundbutton"&gt; &lt;/span&gt;  <br>
+        &lt;/label&gt; <br>
+        &lt;label class="toggle"&gt; <br>
+        &lt;input class="toggleswitch" type="checkbox" /&gt; <br>
+        &lt;span class="roundbutton"&gt; &lt;/span&gt; <br>
+        &lt;/label&gt; <br>
+        &lt;label class="toggle"&gt; <br>
+        &lt;input class="toggleswitch" type="checkbox"/&gt; <br>
+        &lt;span class="roundbutton"&gt; &lt;/span&gt; <br>
+        &lt;/label&gt; <br>
+        &lt;/div&gt; <br>
+        &lt;div class="sliderText"&gt; <br>
+        &lt;p&gt; Slå touchID til &lt;p&gt; <br>
+        &lt;p&gt; Påmindelser &lt;p&gt; 
+        &lt;p&gt; Synkroniser med min kalender &lt;p&gt; <br>
+        &lt;/div&gt; <br>
+        &lt;/div&gt; <br>
+        <br>
+        <br>
+        <b>CSS:</b> <br>
+        .headerProfile { <br>
+          color: #1f2d46; <br>
+          margin: 5% 0 5% 5%; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          font-size: 20px; <br>
+        } <br>
+        <br>
+        .myProfileImg { <br>
+          box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); <br>
+          width: 30%; <br>
+          height: 30%; <br>
+          border-radius: 15px; <br>
+        } <br>
+        <br>
+        .headerProfileImg { <br>
+          text-align: center; <br>
+          margin: 0 0 5% 0; <br>
+        } <br>
+        <br>
+        .formProfile section div { <br>
+          text-align: center; <br>
+          margin: 0 auto; <br>
+        } <br>
+        <br>
+        .formProfile section div label { <br>
+          display: block; <br>
+          text-align: center; <br>
+          margin-top: 15px; <br>
+        } <br>
+        <br>
+        .formProfile section div input { <br>
+          width: 75%; <br>
+          border-radius: 15px; <br>
+          border: none; <br>
+          box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.4); <br>
+          padding: 7px; <br>
+          font-family: "Montserrat", sans-serif; <br>
+        } <br>
+        <br>
+        .profileContainer { <br>
+          display: grid; <br>
+          grid-template-columns: 1fr 3fr; <br>
+          grid-template-rows: 1fr; <br>
+        } <br>
+        <br>
+        .sliderBtn { <br>
+          grid-column: 1/2; <br>
+          grid-row: 1/2; <br>
+          align-self: center; <br>
+          justify-self: end; <br>
+          margin-right: 20px; <br>
+        } <br>
+        <br>
+        .sliderText {  <br>
+          grid-column: 2/3; <br>
+          grid-row: 1/2; <br>
+        } <br>
+        <br>
+        .sliderText p { <br>
+          margin-bottom: 8px; <br>
+          font-family: "Montserrat", sans-serif; <br>
+          font-size: 16px; <br>
+        } <br>
+        <br>
+        .ergebnis { <br>
+          font-size: 2rem; <br>
+          font-family: sans-serif; <br>
+          padding: 2rem 0 2rem 2rem; <br>
+          color: white; <br>
+        } <br>
+        <br>
+        .toggle { <br>
+          margin: 2px 0 0 2rem; <br>
+          position: relative; <br>
+          display: inline-block; <br>
+          width: 3rem; <br>
+          height: 1.5rem; <br>
+        } <br>
+        <br>
+        .toggle input {  <br>
+          display: none;  <br>
+        } <br>
+        <br>
+        .roundbutton { <br>
+          position: absolute; <br>
+          top: 0; <br>
+          left: 0; <br>
+          bottom: 0; <br>
+          right: 0; <br>
+          width: 100%; <br>
+          background-color: #ccc; <br>
+          display: block; <br>
+          transition: all 0.3s; <br>
+          border-radius: 3.4rem;  <br>
+          cursor: pointer; <br>
+        } <br>
+        <br>
+        .roundbutton:before { <br>
+          position: absolute; <br>
+          content: ""; <br>
+          height: 1.3rem; <br>
+          width: 1.4rem; <br>
+          border-radius: 100%; <br>
+          display: block; <br>
+          left: 0.2rem; <br>
+          bottom: 0.1rem; <br>
+          background-color: white; <br>
+          transition: all 0.3s; <br>
+        } <br>
+        <br>
+        input:checked + .roundbutton { <br>
+          background-color: #1f2d46; <br>
+        } <br>
+        <br>
+        input:checked + .roundbutton:before { <br>
+          transform: translate(1.2rem, 0); <br>
+        } <br>
+        <br>
+        <b>JS:</b> <br>
+          var input = document.getElementsByClassName("toggleswitch"); <br>
+          var outputtext = document.getElementById("status");<br>
+          input.addEventListener("change", function () { <br>
+            if (this.checked) { <br>
+              outputtext.innerHTML = "aktiv"; <br>
+            } else { <br>
+              outputtext.innerHTML = "inaktiv"; <br>
+             } <br>
+            }); <br>
+            <br>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
