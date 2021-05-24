@@ -47,6 +47,10 @@
     color: #afadad;
     margin-left: 95px;
   }
+  &__fpass:hover {
+    color: white;
+    text-decoration: underline;
+  }
   &__wrapperbtn {
     text-align: center;
   }
@@ -64,6 +68,10 @@
   }
   &__btn:hover {
     background-color: $clr-sheet-black;
+    color: $clr-text;
+  }
+  &__container2 {
+    padding: 0 60px 0 60px;
     color: $clr-text;
   }
 }
