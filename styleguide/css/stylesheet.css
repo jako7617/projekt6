@@ -783,6 +783,12 @@ td img {
 
 /*LOGO*/
 
+/*
+margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 90px;
+*/
+
 .sektion4 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -891,6 +897,10 @@ td img {
 
 /*KNAPPER*/
 
+.title2 {
+  margin-top: 3px;
+}
+
 .sektion5 {
   margin-top: 30px;
   margin-left: 110px;
@@ -939,12 +949,13 @@ h4 {
   grid-row: 1/2;
   background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen1 {
   grid-column: 2/3;
   grid-row: 1/2;
-  /*height: auto;*/
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -983,8 +994,9 @@ h4 {
 .farveboks2 {
   grid-column: 2/3;
   grid-row: 2/3;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen2 {
@@ -1006,7 +1018,7 @@ h4 {
     align-self: center;
     justify-self: center;
     display: block;
-    background-color: #e3bbab;
+    background-color: #BB86FC;
     font-weight: bold;
     border: none;
     width: 150px;
@@ -1037,8 +1049,9 @@ h4 {
 .farveboks3 {
   grid-column: 2/3;
   grid-row: 3/4;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen3 {
@@ -1069,8 +1082,9 @@ h4 {
 .farveboks4 {
   grid-column: 2/3;
   grid-row: 4/5;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen4 {
@@ -1101,8 +1115,9 @@ h4 {
 .farveboks5 {
   grid-column: 2/3;
   grid-row: 5/6;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen5 {
@@ -1133,8 +1148,9 @@ h4 {
 .farveboks6 {
   grid-column: 2/3;
   grid-row: 6/7;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen6 {
@@ -1165,8 +1181,9 @@ h4 {
 .farveboks7 {
   grid-column: 2/3;
   grid-row: 7/8;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen7 {
@@ -1197,8 +1214,9 @@ h4 {
 .farveboks8 {
   grid-column: 2/3;
   grid-row: 8/9;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen8 {
@@ -1229,8 +1247,9 @@ h4 {
 .farveboks9 {
   grid-column: 2/3;
   grid-row: 9/10;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen9 {
@@ -1261,8 +1280,9 @@ h4 {
 .farveboks10 {
   grid-column: 2/3;
   grid-row: 10/11;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen10 {
@@ -1293,7 +1313,7 @@ h4 {
 .farveboks11 {
   grid-column: 2/3;
   grid-row: 11/12;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
 }
 
@@ -1325,8 +1345,9 @@ h4 {
 .farveboks12 {
   grid-column: 2/3;
   grid-row: 12/13;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen12 {
@@ -1357,8 +1378,9 @@ h4 {
 .farveboks13 {
   grid-column: 2/3;
   grid-row: 13/14;
-  background-color: #e3bbab;
+  background-color: #BB86FC;
   height: 50px;
+  position: relative;
 }
 
 .kodeboksen13 {
