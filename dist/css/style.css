@@ -148,6 +148,11 @@ main img {
   margin-left: 95px;
 }
 
+.login__fpass:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .login__wrapperbtn {
   text-align: center;
 }
@@ -167,6 +172,11 @@ main img {
 
 .login__btn:hover {
   background-color: #2f2f2f;
+  color: #e3e3e3;
+}
+
+.login__container2 {
+  padding: 0 60px 0 60px;
   color: #e3e3e3;
 }
 
