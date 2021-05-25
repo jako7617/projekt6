@@ -24,6 +24,8 @@ strong {
 a {
   color: $clr-text;
   text-decoration: none;
+  font-size: $font-sm-fallback;
+  font-size: $font-sm;
 }
 
 p {
@@ -61,7 +63,11 @@ h5 {
   font-size: $font-med;
   margin-bottom: 2rem;
 }
-
+h6 {
+  font-weight: 400;
+  font-size: $font-sm-fallback;
+  font-size: $font-sm;
+}
 // Buttons
 
 // Spacing
