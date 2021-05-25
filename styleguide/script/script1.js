@@ -1,6 +1,6 @@
 console.log("script.js is running..");
 
-//FORSØG PÅ AT LAVE COLLAPSIBLE BOX - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible //
+//COLLAPSIBLE BOX - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible //
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
