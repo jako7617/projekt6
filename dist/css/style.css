@@ -33,6 +33,8 @@ strong {
 a {
   color: #e3e3e3;
   text-decoration: none;
+  font-size: 16px;
+  font-size: 1.8rem;
 }
 
 p {
@@ -72,6 +74,12 @@ h5 {
   font-size: 24px;
   font-size: 2.4rem;
   margin-bottom: 2rem;
+}
+
+h6 {
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 1.8rem;
 }
 
 main {
@@ -200,13 +208,36 @@ main img {
   margin: 0;
 }
 
+.sideIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 100px;
+}
+
 .whitelogo {
-  height: 60px;
+  height: 70px;
+}
+
+.whitelogo:hover,
+.whitelogo2:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .sidemenu {
   height: 40px;
   margin-top: 8px;
+}
+
+.sidemenu:hover {
+  opacity: 0.5;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .purpleLine {
@@ -232,13 +263,28 @@ main img {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
+  color: #e3e3e3;
+  outline: none;
   border: 2px solid #bb86fc;
   background-color: #2f2f2f;
 }
 
-.breadNsearch p {
+.breadNsearch input:focus {
+  border: 2px solid #c7a0f8;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+}
+
+.breadNsearch a {
+  display: block;
   margin-left: 19%;
-  margin-top: 1%;
+  margin-top: 2.5%;
+}
+
+.breadNsearch a:hover {
+  color: #bb86fc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .breadNsearch img {
@@ -255,29 +301,14 @@ main img {
   height: 20px;
 }
 
-/* Dropdown Button */
-.dropbtn {
-  font-size: 3.4rem;
-  font-size: 34px;
-  padding: 0;
-  background-color: #292929;
-  color: #e3e3e3;
-  border: none;
-  cursor: pointer;
-}
-
-.dropbtn hr {
-  border: 2px solid #e3e3e3;
-  margin-top: 0;
-}
-
 .dropdownGrid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 35% 65%;
-      grid-template-columns: 35% 65%;
-  -ms-grid-rows: (1fr)[5];
-      grid-template-rows: repeat(5, 1fr);
+  grid-row-gap: 25px;
+  -ms-grid-columns: 45% 55%;
+      grid-template-columns: 45% 55%;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
   padding: 4% 4% 4% 6%;
 }
 
@@ -294,71 +325,201 @@ main img {
       justify-self: end;
 }
 
-.dropdownGrid__gridItem1 {
+#list1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
-  grid-column: 1 / 2;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-  float: left;
-  margin-top: 5%;
-}
-
-.dropdown__dropbtn {
-  font-size: 3.4rem;
-  font-size: 34px;
-  padding: 0;
-  background-color: #292929;
-  color: #e3e3e3;
-  border: none;
-  cursor: pointer;
-}
-
-.dropdown__dropbtn hr {
-  border: 2px solid #e3e3e3;
-  margin-top: 0;
-}
-
-.dropdown__dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #292929;
-  min-width: 160px;
-  width: 400px;
-  z-index: 1;
-  margin-top: -15px;
-}
-
-.dropdown__dropdown-content a {
-  color: #e3e3e3;
-  padding: 16.5px 18px;
-  margin-left: 20px;
-  text-decoration: none;
-  display: block;
+  grid-column: 1/2;
   text-align: left;
+}
+
+#list2 {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: left;
+}
+
+#list3 {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: left;
+}
+
+#list4 {
+  -ms-grid-row: 4;
+  -ms-grid-row-span: 1;
+  grid-row: 4/5;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: left;
+}
+
+#list5 {
+  -ms-grid-row: 5;
+  -ms-grid-row-span: 1;
+  grid-row: 5/6;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  text-align: left;
+}
+
+.dropdown-check-list {
+  display: inline-block;
+}
+
+.anchor span {
+  border-bottom: 4px solid #e3e3e3;
+}
+
+.anchor span:hover {
+  color: #bb86fc;
+  border-bottom: 4px solid #bb86fc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 50px 5px 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.dropdown-check-list ul.items {
+  padding: 2px;
+  display: none;
+  margin: 3% 0 0 0;
+  border-top: none;
+}
+
+.dropdown-check-list ul.items li {
+  list-style: none;
+  text-align: left;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   font-size: 2.4rem;
-  font-size: 24px;
 }
 
-.dropdown__dropdown-content a:hover {
-  background: #2f2f2f;
+.dropdown-check-list.visible .items {
+  display: block;
 }
 
-.dropdown__dropdown-content img {
+.listItems {
+  padding-bottom: 35px;
+}
+
+.listItems a:hover {
+  color: #bb86fc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+li img {
   float: left;
   height: 250px;
-  margin-top: 20px;
+  margin: 1% 2% 0 10%;
 }
 
-.show {
-  display: block;
-}
-
-.numbermenu {
+.sideDropDots {
   float: left;
-  margin: 5% 0 0 1%;
+  height: 150px !important;
+  margin: 1% 2% 0 15%;
+}
+
+.purpleLineSide {
+  border: 3px solid #bb86fc;
+  max-width: 65%;
+  margin: 0 auto;
+}
+
+.listItemsSide {
+  padding-bottom: 15px;
+  font-size: 1.8rem !important;
+  margin-left: 50px;
+}
+
+.listItemsSide:hover {
+  color: #bb86fc;
+}
+
+.sideMenuMargin {
+  margin-left: 90px;
+  margin-bottom: 100px;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.95);
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenav h5 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* The navigation menu links */
+.whitelogo2 {
+  display: block;
+  margin: 5px auto 20px auto;
+  text-align: center;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #bb86fc;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
