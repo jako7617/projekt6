@@ -877,6 +877,50 @@ td img {
   grid-row: 1/2;
 }
 
+.wrapper-box-layout{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 60px;
+}
+
+.collapsible-layout{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 82%;
+  height: 55px;
+}
+
+.active, .collapsible-layout:hover {
+  background-color: #555;
+}
+
+.content-layout {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: auto;
+  font-family: "MingLiU_HKSCS";
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
+  width: 82%;
+}
+
+/*
 .kodeboks1 {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -887,12 +931,14 @@ td img {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
+*/
 .gridpic {
   width: auto;
   height: auto;
   align-content: center;
 }
 
+/*
 .pink22 {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -902,6 +948,7 @@ td img {
   background-color: #BB86FC;
   margin-left: 10%;
 }
+*/
 
 .kode-overskrift {
   grid-column: 2/3;
@@ -910,11 +957,13 @@ td img {
   margin-left: -9%;
 }
 
+/*
 .wrapper-box {
   padding-bottom: 70px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
+*/
 
 /*KNAPPER*/
 
