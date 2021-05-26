@@ -250,8 +250,8 @@ main img {
   display: -ms-grid;
   display: grid;
   margin-top: 10px;
-  -ms-grid-columns: 35% 35% 30%;
-      grid-template-columns: 35% 35% 30%;
+  -ms-grid-columns: 50% 20% 30%;
+      grid-template-columns: 50% 20% 30%;
 }
 
 .breadNsearch input {
@@ -277,8 +277,18 @@ main img {
 
 .breadNsearch a {
   display: block;
-  margin-left: 19%;
-  margin-top: 2.5%;
+  margin-left: 100px;
+  margin-top: 15px;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+}
+
+.breadNsearch__newM {
+  margin-left: 280px !important;
 }
 
 .breadNsearch a:hover {
