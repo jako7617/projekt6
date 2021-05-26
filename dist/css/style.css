@@ -563,6 +563,7 @@ li img {
   padding-top: 20px;
   text-align: center;
   padding-top: 4%;
+  margin-bottom: 75px;
 }
 
 .errorboxtext {
@@ -586,12 +587,5 @@ li img {
 .home__btn:hover {
   background-color: #2f2f2f;
   color: #e3e3e3;
-}
-
-.purpleLineerror {
-  border: 3px solid #bb86fc;
-  max-width: 89.5%;
-  margin: 0 0 0 6.2%;
-  margin-top: 75px;
 }
 /*# sourceMappingURL=style.css.map */
