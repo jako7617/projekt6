@@ -95,3 +95,38 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  /* https://codepen.io/aramloosman/pen/eLVxrL */
+  function setPrc( progress ) {
+    if( progress ) {
+      // this is how to set the progress programmatically,
+      // the background-position needs the inverted value from 0% to 100% (0% means full bar, 100% means empty)
+      document.getElementById('progress').setAttribute( 'style', 'background-position: ' + (100-progress) + '% 0')
+    } else {
+      document.getElementById('progress').setAttribute( 'style', '')
+    }
+  }
+  function resetImage() {
+
+    document.getElementById("imgClickAndChange").src = "images/page1-crp.png"
+
+}
+
+  function changeImage() {
+
+    document.getElementById("imgClickAndChange").src = "images/page2-crop.png"
+
+}
+function changeImage2() {
+
+  document.getElementById("imgClickAndChange").src = "images/page3-crop.png"
+
+} function changeImage3() {
+
+  document.getElementById("imgClickAndChange").src = "images/page4-crp.png"
+
+} function changeImage4() {
+
+  document.getElementById("imgClickAndChange").src = "images/page5-crop.png"
+
+}
