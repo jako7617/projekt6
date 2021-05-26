@@ -184,15 +184,14 @@
         <!-- sidemenu slut -->
 
         <div class="topnavContainer">
-          <a href="#"
-            ><img
-              src="images/icons/sidemenu.svg"
-              class="sidemenu"
-              alt="Sidemenu dots"
-              loading="lazy"
-              decoding="async"
-              onclick="openNav()"
-          /></a>
+          <img
+            src="images/icons/sidemenu.svg"
+            class="sidemenu"
+            alt="Sidemenu dots"
+            loading="lazy"
+            decoding="async"
+            onclick="openNav()"
+          />
           <h3>01 Missions</h3>
           <a href="tableofcontents.html">
             <img
@@ -282,14 +281,19 @@
           <h4>Guide</h4>
           <div class="interactive-guide__content-flex">
             <img
-              src="images/page1-cropd.png"
+              src="images/page1-crp.png"
               class="dropdownGrid__frontIllu"
               alt="Sidemenu dots"
               loading="lazy"
               decoding="async"
               id="imgClickAndChange"
             />
-            <p>fdasfdsafdsa</p>
+            <p id="guideText">
+              <b> Start: </b> <br />
+              By double clicking on the name of the newly created mission on the
+              bar on the left, you will be presented with the three views that
+              you will interact with in order to perform the test.
+            </p>
           </div>
           <div id="progress" class="progress-bar"></div>
           <div class="progressBtn">
@@ -300,16 +304,16 @@
             >
               RESET
             </button>
-            <button id="click" onclick="setPrc('25'), changeImage();">
+            <button class="click" onclick="setPrc('25'), changeImage();">
               STEP 1
             </button>
-            <button id="click" onclick="setPrc('50'), changeImage2();">
+            <button class="click" onclick="setPrc('50'), changeImage2();">
               STEP 2
             </button>
-            <button id="click" onclick="setPrc('75'), changeImage3();">
+            <button class="click" onclick="setPrc('75'), changeImage3();">
               STEP 3
             </button>
-            <button id="click" onclick="setPrc('99.9'), changeImage4();">
+            <button class="click" onclick="setPrc('99.9'), changeImage4();">
               STEP 4
             </button>
           </div>
@@ -318,7 +322,7 @@
     </main>
     <footer>
       <div class="footerBtns">
-        <a href=""
+        <a href="tableofcontents.html"
           ><img
             src="images/icons/leftArrow.svg"
             alt="Left Arrow"
