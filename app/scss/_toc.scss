@@ -55,15 +55,17 @@
     border: 2px solid #c7a0f8;
     transition: 0.5;
   }
-  a {
-    display: block;
-    margin-left: 100px;
+  div {
+    display: flex;
+    justify-content: stretch;
     margin-top: 15px;
-    grid-column: 1/2;
-    grid-row: 1/2;
+  }
+  a {
+    margin-left: 1%;
   }
   &__newM {
-    margin-left: 280px !important;
+    display: block;
+    margin-left: 12% !important;
   }
   a:hover {
     color: $clr-light-purple;
