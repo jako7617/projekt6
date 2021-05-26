@@ -33,18 +33,16 @@ for (i = 0; i < coll.length; i++) {
 }
 
 //COLLAPSIBLE BOX (Knapper1) - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible //
-var coll = document.getElementsByClassName("collapsible-button1");
-var i;
+let collButton = document.querySelectorAll("[class*=collapsible]");
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
+console.log(collButton);
+
+for (let i = 0; i < collButton.length; i++) {
+  collButton[i].addEventListener("click", function () {
     this.classList.toggle("active");
     let content = this.nextElementSibling;
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
+    console.log(content);
+    content.classList.toggle("invisible");
   });
 }
 
