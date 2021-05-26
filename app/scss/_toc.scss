@@ -40,7 +40,7 @@
 .breadNsearch {
   display: grid;
   margin-top: 10px;
-  grid-template-columns: 35% 35% 30%;
+  grid-template-columns: 50% 20% 30%;
   input {
     grid-column: 3/4;
     margin-right: 14%;
@@ -57,8 +57,13 @@
   }
   a {
     display: block;
-    margin-left: 19%;
-    margin-top: 2.5%;
+    margin-left: 100px;
+    margin-top: 15px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  &__newM {
+    margin-left: 280px !important;
   }
   a:hover {
     color: $clr-light-purple;
