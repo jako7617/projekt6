@@ -1034,8 +1034,9 @@ h4 {
 
   grid-column: 2/3;
   grid-row: 1/2;
-  width: 80%;
-  height: 55px;
+  background-color: #BB86FC;
+  height: 50px;
+  position: relative;
 }
 
 .active, .collapsible-button1:hover {
@@ -1051,10 +1052,9 @@ h4 {
   grid-column: 2/3;
   grid-row: 1/2;
   height: auto;
-  margin-left: 10%;
-  font-family: "MingLiU_HKSCS";
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
+  font-family: "Roboto Mono", monospace;
 }
 
 /*
