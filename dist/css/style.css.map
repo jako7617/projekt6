@@ -7,7 +7,8 @@
         "../../app/scss/_globals.scss",
         "../../app/scss/_main.scss",
         "../../app/scss/_login.scss",
-        "../../app/scss/_toc.scss"
+        "../../app/scss/_toc.scss",
+        "../../app/scss/_error.scss"
     ],
     "names": [],
     "file": "style.css"
