@@ -1,3 +1,5 @@
+console.log ("script.js is running");
+
 // Tharshika
 // ------- Splash screen
 const textContainer = document.querySelector(".fade-in");
