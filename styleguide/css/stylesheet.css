@@ -1060,25 +1060,6 @@ h4 {
   font-family: "Roboto Mono", monospace;
 }
 
-/*
-.farveboks1 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  background-color: #BB86FC;
-  height: 50px;
-  position: relative;
-}
-
-.kodeboksen1 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  height: auto;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-*/
-
 .btnCreate {
   color: #1f2d46;
   border: none;
@@ -1109,7 +1090,25 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks2 {
+
+.wrapper-box-button2{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.collapsible-button2{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 2/3;
   background-color: #BB86FC;
@@ -1117,7 +1116,15 @@ h4 {
   position: relative;
 }
 
-.kodeboksen2 {
+.active, .collapsible-button2:hover {
+  background-color: #555;
+}
+
+.content-button2 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 2/3;
   height: auto;
@@ -1164,7 +1171,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks3 {
+.wrapper-box-button3{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.collapsible-button3{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 3/4;
   background-color: #BB86FC;
@@ -1172,9 +1196,18 @@ h4 {
   position: relative;
 }
 
-.kodeboksen3 {
+.active, .collapsible-button3:hover {
+  background-color: #555;
+}
+
+.content-button3 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 3/4;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -1197,7 +1230,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks4 {
+.wrapper-box-button4{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.collapsible-button4{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 4/5;
   background-color: #BB86FC;
@@ -1205,9 +1255,18 @@ h4 {
   position: relative;
 }
 
-.kodeboksen4 {
+.active, .collapsible-button4:hover {
+  background-color: #555;
+}
+
+.content-button4 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 4/5;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -1230,7 +1289,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks5 {
+.wrapper-box-button5{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+}
+
+.collapsible-button5{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 5/6;
   background-color: #BB86FC;
@@ -1238,9 +1314,18 @@ h4 {
   position: relative;
 }
 
-.kodeboksen5 {
+.active, .collapsible-button5:hover {
+  background-color: #555;
+}
+
+.content-button5 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 5/6;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -1263,7 +1348,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks6 {
+.wrapper-box-button6{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+
+.collapsible-button6{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 6/7;
   background-color: #BB86FC;
@@ -1271,13 +1373,23 @@ h4 {
   position: relative;
 }
 
-.kodeboksen6 {
+.active, .collapsible-button6:hover {
+  background-color: #555;
+}
+
+.content-button6 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 6/7;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
 }
+
 
 /*Book*/
 .btnsGridItem7 {
@@ -1296,7 +1408,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks7 {
+.wrapper-box-button7{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 7/8;
+}
+
+.collapsible-button7{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 7/8;
   background-color: #BB86FC;
@@ -1304,14 +1433,22 @@ h4 {
   position: relative;
 }
 
-.kodeboksen7 {
+.active, .collapsible-button7:hover {
+  background-color: #555;
+}
+
+.content-button7 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 7/8;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
 }
-
 /*Annuller*/
 .btnsGridItem8 {
   grid-column: 1/2;
@@ -1329,7 +1466,24 @@ h4 {
   vertical-align: middle;
 }
 
-.farveboks8 {
+.wrapper-box-button8{
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 8/9;
+}
+
+.collapsible-button8{
+  background-color: #BB86FC;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  
+
   grid-column: 2/3;
   grid-row: 8/9;
   background-color: #BB86FC;
@@ -1337,176 +1491,20 @@ h4 {
   position: relative;
 }
 
-.kodeboksen8 {
+.active, .collapsible-button8:hover {
+  background-color: #555;
+}
+
+.content-button8 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0,0,0,0.8);
+  
   grid-column: 2/3;
   grid-row: 8/9;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-/*Meld afbud*/
-.btnsGridItem9 {
-  grid-column: 1/2;
-  grid-row: 9/10;
-}
-
-.btnLoginNr {
-  grid-column: 1/2;
-  grid-row: 9/10;
-}
-
-.emailIcon9 {
-  width: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.farveboks9 {
-  grid-column: 2/3;
-  grid-row: 9/10;
-  background-color: #BB86FC;
-  height: 50px;
-  position: relative;
-}
-
-.kodeboksen9 {
-  grid-column: 2/3;
-  grid-row: 9/10;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-/*Ny bruger*/
-.btnsGridItem10 {
-  grid-column: 1/2;
-  grid-row: 10/11;
-}
-
-.btnLoginNr {
-  grid-column: 1/2;
-  grid-row: 10/11;
-}
-
-.emailIcon10 {
-  width: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.farveboks10 {
-  grid-column: 2/3;
-  grid-row: 10/11;
-  background-color: #BB86FC;
-  height: 50px;
-  position: relative;
-}
-
-.kodeboksen10 {
-  grid-column: 2/3;
-  grid-row: 10/11;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-/*Rediger*/
-.btnsGridItem11 {
-  grid-column: 1/2;
-  grid-row: 11/12;
-}
-
-.btnLoginNr {
-  grid-column: 1/2;
-  grid-row: 11/12;
-}
-
-.emailIcon11 {
-  width: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.farveboks11 {
-  grid-column: 2/3;
-  grid-row: 11/12;
-  background-color: #BB86FC;
-  height: 50px;
-}
-
-.kodeboksen11 {
-  grid-column: 2/3;
-  grid-row: 11/12;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-/*Book igen*/
-.btnsGridItem12 {
-  grid-column: 1/2;
-  grid-row: 12/13;
-}
-
-.btnLoginNr {
-  grid-column: 1/2;
-  grid-row: 12/13;
-}
-
-.emailIcon12 {
-  width: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.farveboks12 {
-  grid-column: 2/3;
-  grid-row: 12/13;
-  background-color: #BB86FC;
-  height: 50px;
-  position: relative;
-}
-
-.kodeboksen12 {
-  grid-column: 2/3;
-  grid-row: 12/13;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  font-family: "Roboto Mono", monospace;
-}
-
-/*Swipe*/
-.btnsGridItem13 {
-  grid-column: 1/2;
-  grid-row: 13/14;
-}
-
-.btnLoginNr {
-  grid-column: 1/2;
-  grid-row: 13/14;
-}
-
-.emailIcon13 {
-  width: 30px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-.farveboks13 {
-  grid-column: 2/3;
-  grid-row: 13/14;
-  background-color: #BB86FC;
-  height: 50px;
-  position: relative;
-}
-
-.kodeboksen13 {
-  grid-column: 2/3;
-  grid-row: 13/14;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  margin-bottom: 50px;
   font-family: "Roboto Mono", monospace;
 }
 
