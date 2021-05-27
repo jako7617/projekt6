@@ -12,7 +12,7 @@
   <body>
     <header>
       <nav>
-           <!-- sidemenu -->
+        <!-- sidemenu -->
         <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
             >&times;</a
@@ -43,11 +43,15 @@
                     class="sideDropDots"
                   />
                 </li>
-                <li class="listItemsSide"><a href="">Newly created mission</a></li>
+                <li class="listItemsSide">
+                  <a href="">Newly created mission</a>
+                </li>
                 <li class="listItemsSide"><a href="">Caution</a></li>
                 <li class="listItemsSide"><a href="">Equipment</a></li>
                 <li class="listItemsSide"><a href="">Operator</a></li>
-                <li class="listItemsSide"><a href=""> Flexibility and range</a></li>
+                <li class="listItemsSide">
+                  <a href=""> Flexibility and range</a>
+                </li>
               </ul>
             </div>
             <div id="list7" class="dropdown-check-list" tabindex="100">
@@ -65,11 +69,15 @@
                     class="sideDropDots"
                   />
                 </li>
-                <li class="listItemsSide"><a href="">Newly created mission</a></li>
+                <li class="listItemsSide">
+                  <a href="">Newly created mission</a>
+                </li>
                 <li class="listItemsSide"><a href="">Caution</a></li>
                 <li class="listItemsSide"><a href="">Equipment</a></li>
                 <li class="listItemsSide"><a href="">Operator</a></li>
-                <li class="listItemsSide"><a href=""> Flexibility and range</a></li>
+                <li class="listItemsSide">
+                  <a href=""> Flexibility and range</a>
+                </li>
               </ul>
             </div>
             <div id="list8" class="dropdown-check-list" tabindex="100">
@@ -87,11 +95,15 @@
                     class="sideDropDots"
                   />
                 </li>
-                <li class="listItemsSide"><a href="">Newly created mission</a></li>
+                <li class="listItemsSide">
+                  <a href="">Newly created mission</a>
+                </li>
                 <li class="listItemsSide"><a href="">Caution</a></li>
                 <li class="listItemsSide"><a href="">Equipment</a></li>
                 <li class="listItemsSide"><a href="">Operator</a></li>
-                <li class="listItemsSide"><a href=""> Flexibility and range</a></li>
+                <li class="listItemsSide">
+                  <a href=""> Flexibility and range</a>
+                </li>
               </ul>
             </div>
 
@@ -110,11 +122,15 @@
                     class="sideDropDots"
                   />
                 </li>
-                <li class="listItemsSide"><a href="">Newly created mission</a></li>
+                <li class="listItemsSide">
+                  <a href="">Newly created mission</a>
+                </li>
                 <li class="listItemsSide"><a href="">Caution</a></li>
                 <li class="listItemsSide"><a href="">Equipment</a></li>
                 <li class="listItemsSide"><a href="">Operator</a></li>
-                <li class="listItemsSide"><a href=""> Flexibility and range</a></li>
+                <li class="listItemsSide">
+                  <a href=""> Flexibility and range</a>
+                </li>
               </ul>
             </div>
 
@@ -133,28 +149,37 @@
                     class="sideDropDots"
                   />
                 </li>
-                <li class="listItemsSide"><a href="">Newly created mission</a></li>
-            <li class="listItemsSide"><a href="">Caution</a></li>
-            <li class="listItemsSide"><a href="">Equipment</a></li>
-            <li class="listItemsSide"><a href="">Operator</a></li>
-            <li class="listItemsSide"><a href="">Flexibility and range</a></li>
+                <li class="listItemsSide">
+                  <a href="">Newly created mission</a>
+                </li>
+                <li class="listItemsSide"><a href="">Caution</a></li>
+                <li class="listItemsSide"><a href="">Equipment</a></li>
+                <li class="listItemsSide"><a href="">Operator</a></li>
+                <li class="listItemsSide">
+                  <a href="">Flexibility and range</a>
+                </li>
               </ul>
             </div>
-          </div><div class="sideIcons"><a href="tableofcontents.html"
-          ><img
-            src="images/icons/home.svg"
-
-            alt="Home icon"
-            loading="lazy"
-            decoding="async"
-        /> Home</a><a href="index.html"
-        ><img
-          src="images/icons/logout.svg"
-
-          alt="Logout icon"
-          loading="lazy"
-          decoding="async"
-      /> Log out</a></div>
+          </div>
+          <div class="sideIcons">
+            <a href="tableofcontents.html"
+              ><img
+                src="images/icons/home.svg"
+                alt="Home icon"
+                loading="lazy"
+                decoding="async"
+              />
+              Home</a
+            ><a href="index.html"
+              ><img
+                src="images/icons/logout.svg"
+                alt="Logout icon"
+                loading="lazy"
+                decoding="async"
+              />
+              Log out</a
+            >
+          </div>
         </div>
 
         <!-- sidemenu slut -->
@@ -181,30 +206,50 @@
         </div>
         <hr class="purpleLine" />
         <div class="breadNsearch">
-
-          <input type="text" placeholder="Search.." /><img
-            src="images/icons/search.svg"
-            class="whitelogo"
-            alt="Search Icon"
-            loading="lazy"
-            decoding="async"
-          />
+          <div class="container">
+            <div class="wrapper">
+              <div>
+                <input
+                  class="searcher"
+                  type="text"
+                  name="search"
+                  id="search"
+                  placeholder="Type to search"
+                  autocomplete="chrome-off"
+                />
+                <img
+                  src="images/icons/search.svg"
+                  alt="Search Icon"
+                  loading="lazy"
+                  decoding="async"
+                  onclick="document.location='searchresults.html'"
+                />
+              </div>
+              <div class="results">
+                <ul></ul>
+              </div>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
     <main>
-        <h5 class="errorp">The requested URL was not found on this server.</h5>
-        <div class="errorgrid" >
+      <h5 class="errorp">The requested URL was not found on this server.</h5>
+      <div class="errorgrid">
         <div class="errorbox">
-            <h1>Error 404</h1>
-            <h4 class="errorboxtext">An error has occurred: the page is not available. </h4>
+          <h1>Error 404</h1>
+          <h4 class="errorboxtext">
+            An error has occurred: the page is not available.
+          </h4>
 
-        <div class="home__wrapperbtn">
-            <a href="index.html" type="button" class="home__btn"> HOME </a>
+          <div class="home__wrapperbtn">
+            <a href="tableofcontents.html" type="button" class="home__btn">
+              HOME
+            </a>
+          </div>
         </div>
-        </div>
-        </div>
-        <hr class="purpleLine"/>
+      </div>
+      <hr class="purpleLine" />
     </main>
   </body>
 </html>
