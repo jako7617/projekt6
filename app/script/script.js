@@ -93,7 +93,7 @@ function changeImage4() {
 }
 // Change image and text on click - slut //
 
-//test
+// Søge box - https://codepen.io/ChrisBarberRiley/pen/eYdBXPP - https://www.youtube.com/watch?v=bRdjEpodiaQ //
 
 let searchable = [
   'Antenna',
