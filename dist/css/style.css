@@ -943,4 +943,60 @@ li img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
+
+.errorgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+  margin: 0 3.9% 0 6.2%;
+}
+
+.errorp {
+  text-align: left;
+  padding-top: 4%;
+  margin: 0 3.9% 0 6.2%;
+  padding-bottom: 2%;
+}
+
+.errorbox {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-color: #2f2f2f;
+  -webkit-box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+          box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+  padding-top: 20px;
+  text-align: center;
+  padding-top: 4%;
+  margin-bottom: 75px;
+}
+
+.errorboxtext {
+  font-weight: lighter;
+}
+
+.home__btn {
+  display: inline-block;
+  background-color: #bb86fc;
+  border: 2px solid #bb86fc;
+  border-radius: 4px;
+  color: black;
+  padding: 15px 32px;
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.home__btn:hover {
+  background-color: #2f2f2f;
+  color: #e3e3e3;
+}
 /*# sourceMappingURL=style.css.map */
