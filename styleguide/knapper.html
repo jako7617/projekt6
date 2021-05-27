@@ -46,22 +46,17 @@
             </div>
             </div>
 
-
+          <!--Login knap-->
 
           <div class="btnsGridItem1">
-            <h4>Login ind med email</h4>
+            <h4>Login button</h4>
             <br>
-            <button
-              type="button"
-              class="btnLoginEmail"
-              onclick="document.location='#'"
-            >
-              <img
-                class="emailIcon"
-                src="icons1/email.png"
-                alt="Email ikon"
-              />Log ind med email
-            </button>
+            <div class="loginwrapperbtn">
+              <a href="tableofcontents.html" type="button" class="loginbtn">
+                LOG IN
+              </a>
+            </div>
+
             <p class="paragrafbox1">
               <br>
               <b>Anvendelse:</b>
@@ -71,19 +66,13 @@
           </div>
         
           <div class="btnsGridItem2">
+            <h4>Back button</h4>
             <br>
-            <h4>Log ind med mobil nr.</h4>
-            <br>
-            <button
-              type="button"
-              class="btnLoginNr"
-              onclick="document.location='#'"
-            >
-              <img
-                class="emailIcon2"
-                src="icons1/phone.png"
-                alt="teleikon"
-              />Log ind med mobil nr.
+            <div class="loginwrapperbtn">
+              <a href="tableofcontents.html" type="button" class="loginbtn">
+                BACK
+              </a>
+            </div>
             </button>
             <p class="paragrafbox2">
               <br>
@@ -109,16 +98,17 @@
             </div>
 
           <div class="btnsGridItem3">
+            <h4>Side menu button</h4>
             <br>
-            <h4>Ny bruger knap</h4>
-            <br>
-            <button
-              type="button"
-              class="btnCreate"
-              onclick="document.location='opretbruger.html'"
-            >
-              Ny bruger
-            </button>
+            <a href="#"
+            ><img
+              src="assets/images/sidemenu.svg"
+              class="sidemenu"
+              alt="Sidemenu dots"
+              loading="lazy"
+              decoding="async"
+              onclick="openNav()"
+          /></a>
           <p class="paragrafbox3">
             <br>
             <b>Anvendelse;</b>
@@ -144,11 +134,11 @@
 
           <div class="btnsGridItem4">
             <br>
-            <h4>Fortsæt som gæst knap</h4>
+            <h4>Breadcrumbs</h4>
             <br>
-            <a class="btnGuest" onclick="document.location='forside.html'">
-              Fortsæt som gæst
-            </a>
+            <div ><a class="breadNsearch__newM" href="tableofcontents.html">Table of contents /</a>
+            </div>
+  
           <p class="paragrafbox4">
             <br>
             <b>Anvendelse:</b>
@@ -175,15 +165,29 @@
   
           <div class="btnsGridItem5">
             <br>
-            <h4>Ok knap</h4>
+            <h4>Dropdown menu button</h4>
             <br>
-            <button
-              type="button"
-              class="btnFilter"
-              onclick="document.location='booking.html'"
-            >
-              Ok
-            </button>
+            <div id="list1" class="dropdown-check-list" tabindex="100">
+              <span class="anchor"
+                ><h4><b>01</b> <span> Missions</span></h4></span
+              >
+    
+              <ul class="items">
+                <li>
+                  <img
+                    src="images/icons/dropdownicon.svg"
+                    alt="Dropdown dots"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </li>
+                <li class="listItems"><a href="missions.html">Newly created mission</a></li>
+                <li class="listItems"><a href="">Caution</a></li>
+                <li class="listItems"><a href="">Equipment</a></li>
+                <li class="listItems"><a href="">Operator</a></li>
+                <li class="listItems"><a href="">Flexibility and range</a></li>
+              </ul>
+            </div>
           <p class="paragrafbox5">
             <br>
             <b>Anvendelse:</b>
@@ -209,15 +213,19 @@
 
           <div class="btnsGridItem6">
             <br>
-            <h4>Book knap</h4>
+            <h4>Home button</h4>
             <br>
-            <button
-            type="button"
-            class="btnBook"
-            onclick="document.location='confirmation.html'"
-          >
-            Book
-          </button>
+
+            <img
+            src="assets/images/home.svg"
+
+            alt="Home icon"
+            loading="lazy"
+            decoding="async"
+        /> Home</a><a href="index.html"
+        ></a>
+
+        
           <p class="paragrafbox6">
             <br>
             <b>Anvendelse:</b>
@@ -243,14 +251,15 @@
 
           <div class="btnsGridItem7">
             <br>
-            <h4>REDIGER BOOKING knap</h4>
+            <h4>Logout button</h4>
             <br>
-            <button
-              type="button"
-              class="redigerBooking"
-              onclick="document.location='edittime.html'"
-            > REDIGER BOOKING
-            </button>
+            <img
+          src="assets/images/logout.svg"
+
+          alt="Logout icon"
+          loading="lazy"
+          decoding="async"
+      /> Log out</a>
           <p class="paragrafbox7">
             <br>
             <b>Anvendelse:</b>
@@ -276,15 +285,11 @@
 
           <div class="btnsGridItem8">
             <br>
-            <h4>BOOK IGEN knap</h4>
+            <h4>Guide buttons</h4>
             <br>
-            <button
-            type="button"
-            class="bookIgen"
-            onclick="document.location='bookagain.html'"
-          >
-            BOOK IGEN
-          </button>
+            <button class="click" onclick="setPrc('25'), changeImage();">
+              STEP 1
+            </button>
           <p class="paragrafbox8">
             <br>
             <b>Anvendelse:</b>
@@ -310,15 +315,13 @@
 
           <div class="btnsGridItem9">
             <br>
-            <h4>Meld afbud knap</h4>
+            <h4>Reset button</h4>
             <br>
             <button
-              id="cancelBtn"
-              type="button"
-              class="btnLoginEmail"
-              onclick="document.location='edittime.html'"
+              id="click"
+              class="progressBtnreset"
             >
-              Meld Afbud
+              RESET
             </button>
             <p class="paragrafbox9">
               <br>
@@ -345,15 +348,19 @@
 
           <div class="btnsGridItem10">
             <br>
-            <h4>Anuller knap</h4>
+            <h4>Previous page button</h4>
             <br>
-            <button
-            type="button"
-            class="btnLoginEmail"
-            onclick="document.location='edittime.html'"
-          >
-            Annuller
-          </button>
+            <div class="footerBtns">
+              <a href="tableofcontents.html"
+                ><img
+                  src="assets/images/leftArrow.svg"
+                  alt="Left Arrow"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <h4 class="previoustext">PREVIOUS PAGE</h4></a
+              >
+            </div>
             <p class="paragrafbox10">
               <br>
               <b>Anvendelse:</b>
@@ -379,15 +386,18 @@
 
           <div class="btnsGridItem11">
             <br>
-            <h4>4-cifret Kode knap</h4>
+            <h4>Next page button</h4>
             <br>
-            <button
-              type="button"
-              class="btnLoginEmail"
-              onclick="document.location='skiftkode.html'"
-            > Skift 4-cifret kode
-            </button>
-          <p class="paragrafbox11">
+            <div class="footerBtns">
+              <a href="caution.html"
+                ><h4 class="previoustext">NEXT PAGE</h4>
+                <img
+                  src="assets/images/rightArrow.svg"
+                  alt="Right Arrow"
+                  loading="lazy"
+                  decoding="async"
+              /></a>
+            </div>
             <br>
             <b>Anvendelse:</b>
             <br>
@@ -404,11 +414,17 @@
 
           <div class="btnsGridItem12">
           <br>
-          <h4>Gem knap</h4>
+          <h4>Page button</h4>
           <br>
-          <button type="button" class="btnLoginEmail" onclick="document.location='#'">
-            Gem
-          </button>
+          <a class="searchGridpageBtn" href="missions.html" type="button">
+            PAGE 1
+            <img
+              src="assets/images/rightArrow.svg"
+              alt="Right Arrow"
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
           <p class="paragrafbox12">
             <br>
             <b>Anvendelse:</b>
@@ -426,29 +442,14 @@
 
           <div class="btnsGridItem13">
           <br>
-          <h4>Swipe knap</h4>
+          <h4>Home button</h4>
           <br>
-          <div class="profileContainer">
-            <div class="">
-              <label class="toggle">
-                <input class="toggleswitch" type="checkbox" />
-                <span class="roundbutton"></span>
-              </label>
-              <label class="toggle">
-                <input class="toggleswitch" type="checkbox" />
-                <span class="roundbutton"></span>
-              </label>
-              <label class="toggle">
-                <input class="toggleswitch" type="checkbox" />
-                <span class="roundbutton"></span>
-              </label>
-            </div>
-            <div class="sliderText">
-              <p>Slå touchID til</p>
-              <p>Påmindelser</p>
-              <p>Synkroniser med min kalender</p>
-            </div>
+          <div class="loginwrapperbtn">
+            <a href="tableofcontents.html" type="button" class="loginbtn">
+              BACK
+            </a>
           </div>
+          </button>
           <p class="paragrafbox13">
             <br>
             <b>Anvendelse:</b>
