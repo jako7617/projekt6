@@ -1002,6 +1002,41 @@ h4 {
   grid-row: 1/2;
 }
 
+#loginform {
+  text-align: center;
+}
+
+
+.logininputs {
+    width: 500px;
+  }
+
+.logininputs label {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-align: left;
+    margin-left: 90px;
+  }
+
+.logininputs input {
+    color: #fff;
+    width: 65%;
+    padding: 12px 20px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    background-color: #232323;
+    box-sizing: border-box;
+    border: 2px solid #7e7e7e;
+    border-radius: 4px;
+  }
+
+.logininputs input:focus {
+    border: 2px solid #BB86FC;
+    outline: none;
+  }
+
+
 .loginbtn {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -1087,6 +1122,78 @@ h4 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
+
+.searcher {
+  width: 88%;
+  border: none;
+  height: 20px;
+  background-image: #232323;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+.searcher:focus {
+  outline: none;
+}
+
+.results {
+  padding: 0px;
+  position: absolute;
+  z-index: 99;
+  border-radius: 2px;
+  background-color: #232323;
+  width: 80%;
+}
+
+.results ul {
+  margin: 0;
+  padding: 0;
+}
+
+.results ul li {
+  list-style: none;
+  border-radius: 3px;
+  opacity: 0;
+  display: none;
+  padding: 8px 12px;
+  transition: all 0.2s linear;
+}
+
+.show .results ul li {
+  opacity: 1;
+  display: block !important;
+}
+
+.show .results {
+  padding: 10px;
+}
+
+.results ul li:hover {
+  background: #232323;
+}
+
+.wrappersearch {
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 75%;
+  background-image: #232323;
+  border: 2px solid #BB86FC;
+  background-color: #232323;
+}
+  .wrappersearch  div {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+   .wrappersearch  img {
+      padding: 0;
+      margin: 0 10%;
+      cursor: pointer;
+    }
 
 .wrapper-box-button2 {
   padding-bottom: 70px;
