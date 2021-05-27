@@ -1,4 +1,22 @@
   // Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
+console.log ("script.js is running");
+
+// Tharshika
+// ------- Splash screen
+const textContainer = document.querySelector(".fade-in");
+const splash = document.querySelector(".splash");
+const body = document.querySelector("body");
+
+// DOMcontentLoaded -- affyrer funktionen når DOMmen er færdig med at loade
+window.addEventListener("DOMContentLoaded", function () {
+  body.style.overflow = "hidden";
+  setTimeout(function () {
+    splash.classList.add("display-none");
+    body.style.overflow = "auto";
+  }, 1500);
+});
+
+
   var checkList6 = document.getElementById('list6');
   checkList6.getElementsByClassName('anchor')[0].onclick = function(evt) {
     if (checkList6.classList.contains('visible'))
