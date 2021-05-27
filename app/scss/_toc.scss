@@ -14,14 +14,23 @@
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 100px;
+  a {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+    }
+  }
 }
 .whitelogo {
   height: 70px;
+  cursor: pointer;
 }
 .whitelogo:hover,
 .whitelogo2:hover {
   opacity: 0.5;
   transition: 0.5s;
+  cursor: pointer;
 }
 .sidemenu {
   height: 40px;
@@ -41,21 +50,20 @@
   display: grid;
   margin-top: 10px;
   grid-template-columns: 50% 20% 30%;
+  grid-template-rows: 100%;
   input {
     grid-column: 3/4;
-    margin-right: 14%;
+    //margin-right: 14%;
     padding: 12px;
     grid-row: 1/2;
     color: $clr-text;
     outline: none;
-    border: 2px solid $clr-light-purple;
     background-color: $clr-sheet-black;
   }
   input:focus {
-    border: 2px solid #c7a0f8;
     transition: 0.5;
   }
-  div {
+  &__searchDivFlex {
     display: flex;
     justify-content: stretch;
     margin-top: 15px;
@@ -79,6 +87,10 @@
     width: 20px;
     height: 20px;
   }
+  &__crumbs {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 
 .dropdownGrid {
@@ -87,13 +99,15 @@
   grid-template-columns: 45% 55%;
   grid-template-rows: auto;
   padding: 4% 4% 4% 6%;
+  z-index: -1;
 
   &__frontIllu {
     grid-row: 1/6;
     grid-column: 2/3;
-    width: 90%;
+    width: 70%;
     height: auto;
-    justify-self: end;
+    justify-self: center;
+    align-items: center;
   }
 }
 #list1 {
@@ -215,6 +229,7 @@ li img {
   display: block;
   margin: 5px auto 20px auto;
   text-align: center;
+  cursor: pointer;
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -240,4 +255,82 @@ li img {
   .sidenav a {
     font-size: 18px;
   }
+}
+
+//test//
+.container {
+  grid-column: 3/4;
+}
+
+.wrapper {
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+  width: 75%;
+  background-image: $clr-sheet-black;
+  border: 2px solid $clr-light-purple;
+  background-color: $clr-sheet-black;
+
+  div {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+
+    img {
+      padding: 0;
+      margin: 0 10%;
+      cursor: pointer;
+    }
+  }
+}
+
+.searcher {
+  width: 88%;
+  border: none;
+  height: 20px;
+  background-image: $clr-sheet-black;
+  border-radius: 5px;
+  font-size: 18px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searcher:focus {
+  outline: none;
+}
+
+.results {
+  padding: 0px;
+  position: absolute;
+  z-index: 99;
+  border-radius: 2px;
+  background-color: $clr-sheet-black;
+  width: 80%;
+}
+
+.results ul {
+  margin: 0;
+  padding: 0;
+}
+
+.results ul li {
+  list-style: none;
+  border-radius: 3px;
+  opacity: 0;
+  display: none;
+  padding: 8px 12px;
+  transition: all 0.2s linear;
+}
+
+.show .results ul li {
+  opacity: 1;
+  display: block !important;
+}
+
+.show .results {
+  padding: 10px;
+}
+
+.results ul li:hover {
+  background: $clr-grey-black;
 }

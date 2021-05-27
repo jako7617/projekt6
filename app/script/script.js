@@ -1,3 +1,4 @@
+  // Side menu dropdowns - https://stackoverflow.com/questions/19206919/how-to-create-checkbox-inside-dropdown //
   var checkList6 = document.getElementById('list6');
   checkList6.getElementsByClassName('anchor')[0].onclick = function(evt) {
     if (checkList6.classList.contains('visible'))
@@ -37,20 +38,20 @@
     else
       checkList10.classList.add('visible');
   }
+// Sidemenu dropdowns - slut //
 
-
-  /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+//Side menu navigation - https://www.w3schools.com/howto/howto_js_sidenav.asp //
 function openNav() {
     document.getElementById("mySidenav").style.width = "500px";
 
   }
 
-  /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+ // Side menu navigation slut -  //
 
-  /* https://codepen.io/aramloosman/pen/eLVxrL */
+  // https://codepen.io/aramloosman/pen/eLVxrL //
   function setPrc( progress ) {
     if( progress ) {
       // this is how to set the progress programmatically,
@@ -60,13 +61,13 @@ function openNav() {
       document.getElementById('progress').setAttribute( 'style', '')
     }
   }
+// Sidemenu nav - slut //
 
-
+// Picture and text changer //
   function resetImage() {
     document.getElementById("imgClickAndChange").src = "images/page1-crp.png"
     document.getElementById("guideText").innerHTML = "<b>Start:</b><br /> By double clicking on the name of the newly created mission on the bar on the left, you will be presented with the three views that you will interact with in order to perform the test."
 }
-
 
 function changeImage() {
     document.getElementById("imgClickAndChange").src = "images/page4-crp.png"
@@ -86,4 +87,51 @@ function changeImage3() {
 function changeImage4() {
   document.getElementById("imgClickAndChange").src = "images/scanPage7-crop.png"
   document.getElementById("guideText").innerHTML = "<b>Step 4:</b> <br />In order to proceed with the test, you must select the scan plans you wish to perform in a flight - then you export them. The software will then present you with an estimate of how much time it will take to perform the flight. If you are not satisfied with the estimate, you have the option to change the transfer speed. This is related to the speed between the different flights. The software will then prompt you to choose where you want to export the files to, therefore you must select a location.  "
+}
+// Change image and text on click - slut //
+
+//test
+
+let searchable = [
+  'Antenna',
+  'Antenna measurements',
+  'Antenna flexibility',
+  'Antenna range',
+  'Missions',
+  'Newly created mission',
+  'Caution',
+  'Equipment',
+  'Operator',
+  'Flexibility and range',
+  'Gathering data',
+];
+
+const searchInput = document.getElementById('search');
+const searchWrapper = document.querySelector('.wrapper');
+const resultsWrapper = document.querySelector('.results');
+
+searchInput.addEventListener('keyup', () => {
+  let results = [];
+  let input = searchInput.value;
+  if (input.length) {
+    results = searchable.filter((item) => {
+      return item.toLowerCase().includes(input.toLowerCase());
+    });
+  }
+  renderResults(results);
+});
+
+function renderResults(results) {
+  if (!results.length) {
+    return searchWrapper.classList.remove('show');
+  }
+
+  const content = results
+    .map((item) => {
+      return `<li><a href="searchresults.html">${item}</a></li>`;
+    })
+    .join('');
+
+  searchWrapper.classList.add('show');
+  resultsWrapper.innerHTML = `<ul>${content}</ul>`;
 }
