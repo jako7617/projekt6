@@ -8,6 +8,10 @@
   background-color: #292929;
 }
 
+body {
+  padding-bottom: 50px;
+}
+
 p {
   opacity: 0.9;
 }
@@ -992,7 +996,7 @@ h4 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-row-gap: 150px;
+  grid-row-gap: 45px;
   grid-column-gap: 2%;
 }
 
@@ -1059,7 +1063,7 @@ h4 {
 }
 
 .wrapper-box-button1 {
-  padding-bottom: 70px;
+  margin-top: 45px;
   grid-column: 2/3;
   grid-row: 1/2;
 }
@@ -1197,7 +1201,13 @@ h4 {
     }
 
 .wrapper-box-button2 {
-  padding-bottom: 70px;
+  margin-top: 45px;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.wrapper-box-button22 {
+  margin-top: 69px;
   grid-column: 2/3;
   grid-row: 2/3;
 }
@@ -1277,7 +1287,7 @@ h4 {
 }
 
 .wrapper-box-button3 {
-  padding-bottom: 70px;
+  margin-top: 45px;
   grid-column: 2/3;
   grid-row: 3/4;
 }
@@ -1331,7 +1341,7 @@ h4 {
 }
 
 .wrapper-box-button4 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 4/5;
 }
@@ -1434,7 +1444,7 @@ li img {
 
 
 .wrapper-box-button5 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 5/6;
 }
@@ -1493,7 +1503,7 @@ li img {
 }
 
 .wrapper-box-button6 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 6/7;
 }
@@ -1541,7 +1551,7 @@ li img {
 }
 
 .wrapper-box-button7 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 7/8;
 }
@@ -1601,7 +1611,7 @@ li img {
   }
 
 .wrapper-box-button8 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 8/9;
 }
@@ -1661,7 +1671,7 @@ li img {
 }
 
 .wrapper-box-button9 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 9/10;
 }
@@ -1739,7 +1749,7 @@ li img {
 }
 
 .wrapper-box-button10 {
-  padding-bottom: 70px;
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 10/11;
 }
@@ -1797,20 +1807,48 @@ li img {
   vertical-align: middle;
 }
 
-.farveboks11 {
+.wrapper-box-button11 {
+  margin-top: 67px;
   grid-column: 2/3;
   grid-row: 11/12;
-  background-color: #bb86fc;
-  height: 50px;
 }
 
-.kodeboksen11 {
+.collapsible-button11 {
+  background-color: #bb86fc;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
   grid-column: 2/3;
-  grid-row: 11/12;
+  grid-row:  11/12;
+  background-color: #bb86fc;
+  height: 50px;
+  position: relative;
+}
+
+.active,
+.collapsible-button11:hover {
+  background-color: #555;
+}
+
+.content-button11 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+
+  grid-column: 2/3;
+  grid-row:  11/12;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
 }
+
 
 /*Page button*/
 .btnsGridItem12 {
@@ -1834,7 +1872,23 @@ li img {
     height: 12px;
   }
 
-.farveboks12 {
+.wrapper-box-button12 {
+  margin-top: 67px;
+  grid-column: 2/3;
+  grid-row: 12/13;
+}
+
+.collapsible-button12 {
+  background-color: #bb86fc;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
   grid-column: 2/3;
   grid-row: 12/13;
   background-color: #bb86fc;
@@ -1842,9 +1896,19 @@ li img {
   position: relative;
 }
 
-.kodeboksen12 {
+.active,
+.collapsible-button12:hover {
+  background-color: #555;
+}
+
+.content-button12 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+
   grid-column: 2/3;
   grid-row: 12/13;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   font-family: "Roboto Mono", monospace;
@@ -1867,7 +1931,23 @@ li img {
   vertical-align: middle;
 }
 
-.farveboks13 {
+.wrapper-box-button13 {
+  margin-top: 67px;
+  grid-column: 2/3;
+  grid-row: 13/14;
+}
+
+.collapsible-button13 {
+  background-color: #bb86fc;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
   grid-column: 2/3;
   grid-row: 13/14;
   background-color: #bb86fc;
@@ -1875,12 +1955,21 @@ li img {
   position: relative;
 }
 
-.kodeboksen13 {
+.active,
+.collapsible-button13:hover {
+  background-color: #555;
+}
+
+.content-button13 {
+  padding: 0 18px;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+
   grid-column: 2/3;
   grid-row: 13/14;
+  height: auto;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
-  margin-bottom: 50px;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -2090,6 +2179,9 @@ input:checked + .roundbutton {
 input:checked + .roundbutton:before {
   transform: translate(1.2rem, 0);
 }
+
+
+
 
 /*FORMULAR*/
 
