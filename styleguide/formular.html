@@ -40,21 +40,122 @@
           </button>
           <div class="content-button1 invisible">
             <b>HTML:</b> <br />
-            &lt;div class="container"&gt; &lt;div class="wrapper"&gt;
-            &lt;div&gt;&lt;input class="searcher" type="text" name="search"
-            id="search" placeholder="Type to search"
-            autocomplete="chrome-off"&gt; &lt;img src="images/icons/search.svg"
-            alt="Search Icon" loading="lazy" decoding="async"
-            onclick="document.location='searchresults.html'" /&gt;&lt;/div&gt;
-            &lt;div&gt; class="results"&gt; &lt;ul&gt; &lt;/ul&gt; &lt;/div&gt;
-            &lt;/div&gt;
+            &lt;div id="loginform"&gt;  <br />
+            &lt;div class="logininputs"&gt; <br />
+            &lt;label&gt; for="operator"&gt;Operator&lt;/label&gt; <br />
+        &lt;input
+          type="text"
+          id="opname"
+          name="opname"
+          placeholder="E.g QuadSAT"
+        /&gt;&lt;br /&gt;&lt;br /&gt; <br />
+      &lt;/div&gt; <br />
+      &lt;div class="logininputs"&gt; <br />
+        &lt;label&gt; for="password"&gt;Password&lt;/label&gt; <br />
+        &lt;input
+          type="text"
+          id="password"
+          name="password"
+          placeholder="Password"
+        /&gt; <br />
+      &lt;/div&gt; <br />
+    &lt;/div&gt; <br />
             <br />
             <br />
             <b>CSS:</b> <br />
-            .logoSide { <br />
-            width: 85px; <br />
-            margin: 50px 0 -130px 70px; <br />
-            }
+            .login {  <br />
+              &container {  <br />
+                background-color: $clr-sheet-black;  <br />
+                width: 500px;  <br />
+                height: 550px;  <br />
+                position: absolute;  <br />
+                top: 0;  <br />
+                bottom: 0;  <br />
+                left: 0;  <br />
+                right: 0;  <br />
+                margin: auto;  <br />
+                padding: auto;  <br />
+                box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);  <br />
+              } <br /> 
+              <br />
+              h4 {  <br />
+                text-align: center;  <br />
+                padding: 4rem;  <br />
+                color: $clr-text;  <br />
+              }  <br />
+              <br />
+              &inputs {  <br />
+                width: 500px;  <br />
+              }  <br />
+              <br />
+              &inputs label {  <br />
+                color: $clr-text;  <br />
+                font-size: $font-sm; <br /> 
+                font-size: $font-sm-fallback;  <br />
+                display: block;  <br />
+                text-align: left;  <br />
+                margin-left: 90px;  <br />
+              }  <br />
+              <br />
+              &inputs input {  <br />
+                color: $clr-text;  <br />
+                width: 65%;  <br />
+                padding: 12px 20px;  <br />
+                margin-top: 1rem; <br />
+                margin-bottom: 2rem;  <br />
+                background-color: $clr-sheet-black; <br />
+                box-sizing: border-box;  <br />
+                border: 2px solid #7e7e7e; <br />
+                border-radius: 4px; <br />
+              } <br />
+              <br />
+              &inputs input:focus { <br />
+                border: 2px solid $clr-light-purple;  <br />
+                outline: none;  <br />
+              }  <br /> 
+              <br />
+              &fpass {  <br />
+                color: #afadad;  <br />
+                margin-left: 95px;  <br />
+              }  <br />
+              <br />
+              &fpass:hover {  <br />
+                color: white;  <br />
+                text-decoration: underline;  <br />
+              }  <br />
+              <br />
+              &wrapperbtn { <br />
+                text-align: center; <br />
+              }<br />
+              <br />
+              &btn { <br />
+                display: inline-block; <br />
+                background-color: $clr-light-purple; <br />
+                border: 2px solid $clr-light-purple; <br />
+                border-radius: 4px; <br />
+                color: black; <br />
+                padding: 15px 32px; <br />
+                margin-top: 80px;<br />
+                text-decoration: none; <br />
+                font-size: 18px; <br />
+                font-weight: 600; <br />
+              }<br />
+              <br /> 
+              &btn:hover { <br />
+                background-color: $clr-sheet-black; <br />
+                color: $clr-text; <br />
+              } <br />
+              <br />
+              &__container2 { <br />
+                padding: 0 60px 0 60px; <br />
+                color: $clr-text; <br />
+              } <br />
+            } <br />
+            <br />
+            #loginform { <br />
+              text-align: center; <br />
+            } <br />
+            <br />
           </div>
         </div>
 
@@ -120,21 +221,156 @@
           </p>
         </div>
 
-        <div class="wrapper-box-button22">
+        <div class="wrapper-box-button2">
           <button type="button" class="collapsible-button2">
             Open to see code
           </button>
           <div class="content-button2 invisible">
             <b>HTML:</b> <br />
-            &lt;img id="logoSideid" class="logoSide"
-            src="assets/images/logo_pink.png" alt="Filter ikon"/&gt;
+            &lt;div class="container"&gt; <br>
+            &lt;div class="wrapper"&gt; <br>
+              &lt;div&gt;&lt;input class="searcher"  type="text" name="search" id="search" placeholder="Type to search" autocomplete="off"&gt; <br>
+              &lt;img
+            src="images/icons/search.svg"
+        
+            alt="Search Icon"
+            loading="lazy"
+            decoding="async" onclick="document.location='searchresults.html'"
+          /&gt;&lt;/div&gt; <br>
+              &lt;div class="results"&gt; <br>
+                &lt;ul&gt; <br>
+                &lt;/ul&gt; <br>
+              &lt;/div&gt; <br>
+            &lt;/div&gt; <br>
+          &lt;/div&gt; <br>
             <br />
             <br />
             <b>CSS:</b> <br />
-            .logoSide { <br />
-            width: 85px; <br />
-            margin: 50px 0 -130px 70px; <br />
-            }
+            .container {  <br />
+              grid-column: 3/4;  <br />
+            } <br />
+            <br />
+            .wrapper { <br />
+              margin: 0 auto;  <br />
+              border-radius: 5px;  <br />
+              box-shadow: 0px 1px 5px 3px rgba(0, 0, 0, 0.15);  <br />
+              position: relative;  <br />
+              width: 75%;  <br />
+              background-image: $clr-sheet-black;  <br />
+              border: 2px solid $clr-light-purple;  <br />
+              background-color: $clr-sheet-black; <br />
+              <br />
+              div {  <br />
+                display: flex; <br />
+                justify-content: stretch; <br />
+                align-items: center;  <br />
+                <br />
+                img {  <br />
+                  padding: 0;  <br />
+                  margin: 0 10%;  <br />
+                  cursor: pointer;  <br />
+                }  <br />
+              } <br />
+            } <br />
+            <br />
+            .searcher { <br />
+              width: 88%;  <br />
+              border: none;  <br />
+              height: 20px; <br />
+              background-image: $clr-sheet-black;  <br />
+              border-radius: 5px;  <br />
+              font-size: 18px;  <br />
+              box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);  <br />
+            } <br />
+            <br />
+            .searcher:focus { <br />
+              outline: none; <br />
+            } <br />
+            <br />
+            .results { <br />
+              padding: 0px; <br />
+              position: absolute;  <br />
+              z-index: 99;  <br />
+              border-radius: 2px;  <br />
+              background-color: $clr-sheet-black;  <br />
+              width: 80%;  <br />
+            } <br />
+            <br />
+            .results ul { <br />
+              margin: 0; <br />
+              padding: 0; <br />
+            } <br />
+            <br />
+            .results ul li { <br />
+              list-style: none; <br />
+              border-radius: 3px; <br />
+              opacity: 0; <br />
+              display: none; <br />
+              padding: 8px 12px; <br />
+              transition: all 0.2s linear; <br />
+            } <br />
+            <br />
+            .show .results ul li { <br />
+              opacity: 1; <br />
+              display: block !important; <br />
+            } <br />
+            <br />
+            .show .results { <br />
+              padding: 10px; <br />
+            } <br />
+            <br />
+            .results ul li:hover { <br />
+              background: $clr-grey-black;
+            } <br />
+            <br />
+             <br />
+            <b>JS:</b> <br />
+            let searchable = [ <br />
+  'Antenna', <br />
+  'Antenna measurements', <br />
+  'Antenna flexibility', <br />
+  'Antenna range', <br />
+  'Missions', <br />
+  'Newly created mission', <br />
+  'Caution', <br />
+  'Equipment', <br />
+  'Operator', <br />
+  'Flexibility and range', <br />
+  'Gathering data', <br />
+]; <br />
+<br />
+const searchInput = document.getElementById('search'); <br />
+const searchWrapper = document.querySelector('.wrapper'); <br />
+const resultsWrapper = document.querySelector('.results'); <br />
+<br />
+searchInput.addEventListener('keyup', () => { <br />
+  let results = []; <br />
+  let input = searchInput.value; <br />
+  if (input.length) { <br />
+    results = searchable.filter((item) => { <br />
+      return item.toLowerCase().includes(input.toLowerCase());
+    });<br />
+  }<br />
+  renderResults(results);<br />
+});<br />
+<br />
+function renderResults(results) {<br />
+  if (!results.length) {<br />
+    return searchWrapper.classList.remove('show');<br />
+  }<br />
+  <br />
+  const content = results<br />
+    .map((item) => {<br />
+      return &lt;li&gt;&lt;a&gt; href="searchresults.html"&gt;${item}&lt;/a&gt;&lt;/li&gt;;
+    })<br />
+    })<br />
+    .join('');<br />
+    <br />
+  searchWrapper.classList.add('show');<br />
+  resultsWrapper.innerHTML = <ul>${content}</ul>;<br />
+}<br />
+<br />
+<br />
           </div>
         </div>
 
