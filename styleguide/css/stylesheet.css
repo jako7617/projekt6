@@ -917,7 +917,7 @@ td img {
   grid-column: 2/3;
   grid-row: 1/2;
   height: auto;
-  font-family: "MingLiU_HKSCS";
+  font-family: "Roboto Mono", monospace;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
   width: 82%;
