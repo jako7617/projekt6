@@ -78,7 +78,7 @@ let searchable = [
 ];
 
 const searchInput = document.getElementById('search');
-const searchWrapper = document.querySelector('.wrapper');
+const searchWrapper = document.querySelector('.wrappersearch');
 const resultsWrapper = document.querySelector('.results');
 
 searchInput.addEventListener('keyup', () => {
@@ -99,10 +99,10 @@ function renderResults(results) {
 
   const content = results
     .map((item) => {
-      return <li><a href="searchresults.html">${item}</a></li>;
+      return `<li><a href="searchresults.html">${item}</a></li>`;
     })
     .join('');
 
   searchWrapper.classList.add('show');
-  resultsWrapper.innerHTML = <ul>${content}</ul>;
+  resultsWrapper.innerHTML ='<ul>${content}</ul>';
 }
