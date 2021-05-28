@@ -92,6 +92,8 @@ hr {
   margin-top: -10px;
 }
 
+/* HEADER + NAV - SLUT */
+
 .sektion1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -238,53 +240,7 @@ h3 {
   font-size: 14px;
   background-color: #2f2f2f;
 }
-
-/*IKONER*/
-
-table {
-  border-collapse: collapse;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: 2%;
-  margin-bottom: 7%;
-  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
-}
-
-td,
-th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 10px;
-}
-
-td img {
-  width: 55px;
-  height: 55px;
-  padding-left: 25px;
-}
-
-.menu {
-  background-color: #bb86fc;
-}
-
-.wrappercode-icons {
-  padding-bottom: 70px;
-}
-.kodeboks {
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  margin-left: 25%;
-  top: 200px;
-  width: 50%;
-  font-family: "Roboto Mono", monospace;
-  padding: 2%;
-}
-
-.pink {
-  padding-top: 4.5%;
-  margin-left: 25%;
-  width: 50%;
-  background-color: #bb86fc;
-}
+/*FARVER - SLUT*/
 
 /*TYPOGRAFI*/
 
@@ -830,114 +786,9 @@ td img {
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
   padding: 2%;
 }
-
-/*LOGO*/
-.sektion4 {
-  margin-left: 110px;
-  margin-right: 39px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  margin-top: 30px;
-  margin-left: 110px;
-}
-
-.logo {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.logopic {
-  width: 75%;
-  align-content: center;
-}
-
-.kode-overskrift {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: -15%;
-  margin-left: -9%;
-}
-
-.wrapper-box {
-  padding-bottom: 70px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
-/*LAYOUT*/
-
-.sektion6 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  margin-top: 30px;
-  margin-left: 110px;
-}
-
-.gridlayout {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.wrapper-box-layout {
-  padding-bottom: 70px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-left: 60px;
-}
-
-.collapsible-layout {
-  background-color: #bb86fc;
-  color: #ffff;
-  cursor: pointer;
-  padding: 1px 11px 1px 5px;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 20px;
-
-  grid-column: 2/3;
-  grid-row: 1/2;
-  width: 82%;
-  height: 55px;
-}
-
-.active,
-.collapsible-layout:hover {
-  background-color: #555;
-}
-
-.content-layout {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
-
-  grid-column: 2/3;
-  grid-row: 1/2;
-  height: auto;
-  font-family: "Roboto Mono", monospace;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-  padding: 2%;
-  width: 82%;
-}
-
-.gridpic {
-  width: 80%;
-  height: auto;
-  align-content: center;
-}
-
-.kode-overskrift {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  margin-top: -15%;
-  margin-left: -9%;
-}
+/*Typografi- SLUT*/
 
 /*KNAPPER*/
-
 .title2 {
   margin-top: 3px;
 }
@@ -978,10 +829,10 @@ h4 {
   text-align: center;
 }
 
-
 .logininputs {
     width: 500px;
   }
+
 
 .logininputs label {
     color: #fff;
@@ -1007,7 +858,6 @@ h4 {
     border: 2px solid #BB86FC;
     outline: none;
   }
-
 
 .loginbtn {
   grid-column: 1/2;
@@ -1076,6 +926,7 @@ h4 {
   font-family: "Roboto Mono", monospace;
 }
 
+/*
 .btnCreate {
   color: #1f2d46;
   border: none;
@@ -1088,8 +939,9 @@ h4 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
+*/ 
 
-/*Side menu button*/
+/*Back button*/
 .btnsGridItem2 {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -1216,11 +1068,14 @@ h4 {
   font-family: "Roboto Mono", monospace;
 }
 
+/*
 .btnGuest {
   color: #f1f1e2;
   font-weight: 500;
 }
+*/
 
+/*
 .btnFilter {
   grid-column: 1 / 4;
   align-self: center;
@@ -1236,23 +1091,27 @@ h4 {
   margin: 35px 0;
   font-family: "Roboto", sans-serif;
 }
+*/
 
-/*Ny Bruger*/
+/*Side menu knap*/
 .btnsGridItem3 {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-
+/*
 .btnLoginNr {
   grid-column: 1/2;
   grid-row: 3/4;
 }
+*/
 
+/*
 .emailIcon3 {
   width: 30px;
   margin-right: 10px;
   vertical-align: middle;
 }
+*/
 
 .wrapper-box-button3 {
   margin-top: 45px;
@@ -1359,14 +1218,17 @@ h4 {
 .dropdown-check-list {
   display: inline-block;
 }
+
 .anchor span {
   border-bottom: 4px solid #fff;
 }
+
 .anchor span:hover {
   color: #bb86fc;
   border-bottom: 4px solid #bb86fc;
   transition: 0.2s;
 }
+
 .dropdown-check-list .anchor {
   position: relative;
   cursor: pointer;
@@ -1392,24 +1254,27 @@ h4 {
 .dropdown-check-list.visible .items {
   display: block;
 }
+
 .listItems {
   padding-bottom: 35px;
 }
+
 .listItems a:hover {
   color: #bb86fc;
   transition: 0.2s;
 }
+
 li img {
   float: left;
   height: 250px;
   margin: 1% 2% 0 10%;
 }
+
 .sideDropDots {
   float: left;
   height: 150px !important;
   margin: 1% 2% 0 15%;
 }
-
 
 .wrapper-box-button5 {
   margin-top: 67px;
@@ -1453,22 +1318,25 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
-/*Skift kode*/
+/*Home knap*/
 .btnsGridItem6 {
   grid-column: 1/2;
   grid-row: 6/7;
 }
 
+/*
 .btnLoginNr {
   grid-column: 1/2;
   grid-row: 6/7;
 }
-
+*/
+/*
 .emailIcon6 {
   width: 30px;
   margin-right: 10px;
   vertical-align: middle;
 }
+*/
 
 .wrapper-box-button6 {
   margin-top: 67px;
@@ -1512,7 +1380,7 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
-/*Logout*/
+/*Logout knap*/
 .btnsGridItem7 {
   grid-column: 1/2;
   grid-row: 7/8;
@@ -1559,7 +1427,8 @@ li img {
   padding: 2%;
   font-family: "Roboto Mono", monospace;
 }
-/*Guide buttons*/
+
+/*Guide buttons (step 1)*/
 .btnsGridItem8 {
   grid-column: 1/2;
   grid-row: 8/9;
@@ -1680,16 +1549,18 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
-/*Ny bruger*/
+/*Previous page knap*/
 .btnsGridItem10 {
   grid-column: 1/2;
   grid-row: 10/11;
 }
 
+/*
 .btnLoginNr {
   grid-column: 1/2;
   grid-row: 10/11;
 }
+*/ 
 
 .footerBtns {
   display: block;
@@ -1709,13 +1580,13 @@ li img {
   color: #fff;
   margin-top: -1.9px;
 }  
-
+/*
 .emailIcon10 {
   width: 30px;
   margin-right: 10px;
   vertical-align: middle;
 }
-
+*/
 .wrapper-box-button10 {
   margin-top: 67px;
   grid-column: 2/3;
@@ -1758,12 +1629,13 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
-/*Rediger*/
+/*Mext page knap*/
 .btnsGridItem11 {
   grid-column: 1/2;
   grid-row: 11/12;
 }
 
+/*
 .btnLoginNr {
   grid-column: 1/2;
   grid-row: 11/12;
@@ -1774,6 +1646,7 @@ li img {
   margin-right: 10px;
   vertical-align: middle;
 }
+*/
 
 .wrapper-box-button11 {
   margin-top: 67px;
@@ -1818,7 +1691,7 @@ li img {
 }
 
 
-/*Page button*/
+/* Page button*/
 .btnsGridItem12 {
   grid-column: 1/2;
   grid-row: 12/13;
@@ -1882,12 +1755,13 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
-/*Swipe*/
+/*Back knap*/
 .btnsGridItem13 {
   grid-column: 1/2;
   grid-row: 13/14;
 }
 
+/*
 .btnLoginNr {
   grid-column: 1/2;
   grid-row: 13/14;
@@ -1898,6 +1772,7 @@ li img {
   margin-right: 10px;
   vertical-align: middle;
 }
+*/
 
 .wrapper-box-button13 {
   margin-top: 67px;
@@ -1941,6 +1816,7 @@ li img {
   font-family: "Roboto Mono", monospace;
 }
 
+/*
 .btnsGridItem15,
 .btnsGridItem17,
 .btnsGridItem19,
@@ -2093,7 +1969,9 @@ li img {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+*/
 
+/*
 .ergebnis {
   font-size: 2rem;
   font-family: sans-serif;
@@ -2147,12 +2025,170 @@ input:checked + .roundbutton {
 input:checked + .roundbutton:before {
   transform: translate(1.2rem, 0);
 }
+*/
 
+/*Knapper - SLUT*/
 
+/*LOGO*/
+.sektion4 {
+  margin-left: 110px;
+  margin-right: 39px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+}
 
+.logo {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.logopic {
+  width: 75%;
+  align-content: center;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+
+.wrapper-box {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+/*LOGO - SLUT*/
+
+/*IKONER*/
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 2%;
+  margin-bottom: 7%;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+}
+
+td img {
+  width: 55px;
+  height: 55px;
+  padding-left: 25px;
+}
+
+.menu {
+  background-color: #bb86fc;
+}
+
+/*
+.wrappercode-icons {
+  padding-bottom: 70px;
+}
+*/
+
+/*
+.kodeboks {
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  margin-left: 25%;
+  top: 200px;
+  width: 50%;
+  font-family: "Roboto Mono", monospace;
+  padding: 2%;
+}
+
+.pink {
+  padding-top: 4.5%;
+  margin-left: 25%;
+  width: 50%;
+  background-color: #bb86fc;
+}
+/*
+/*IKONER - SLUT*/
+
+/*LAYOUT*/
+.sektion6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.gridlayout {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.wrapper-box-layout {
+  padding-bottom: 70px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-left: 60px;
+}
+
+.collapsible-layout {
+  background-color: #bb86fc;
+  color: #ffff;
+  cursor: pointer;
+  padding: 1px 11px 1px 5px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+  width: 82%;
+  height: 55px;
+}
+
+.active,
+.collapsible-layout:hover {
+  background-color: #555;
+}
+
+.content-layout {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px -4px rgba(0, 0, 0, 0.8);
+
+  grid-column: 2/3;
+  grid-row: 1/2;
+  height: auto;
+  font-family: "Roboto Mono", monospace;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 2%;
+  width: 82%;
+}
+
+.gridpic {
+  width: 80%;
+  height: auto;
+  align-content: center;
+}
+
+.kode-overskrift {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: -15%;
+  margin-left: -9%;
+}
+/*LAYOUT - SLUT*/
 
 /*FORMULAR*/
-
+/*
 .sektion7 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -2161,7 +2197,9 @@ input:checked + .roundbutton:before {
   margin-left: 110px;
   grid-row-gap: 1%;
 }
+*/
 
+/*
 .formular-box1 {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -2176,7 +2214,9 @@ input:checked + .roundbutton:before {
   grid-column: 1/2;
   grid-row: 3/4;
 }
+*/
 
+/*
 .kodeboks2 {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -2210,6 +2250,10 @@ input:checked + .roundbutton:before {
   margin-bottom: 10%;
   padding: 20px 20px;
 }
+
+*/
+
+/*
 .formular1 {
   width: 80%;
   align-content: center;
@@ -2245,13 +2289,16 @@ input:checked + .roundbutton:before {
 .pink5 {
   grid-row: 3/4;
 }
+*/
+/*
 .kode-overskrift {
   grid-column: 2/3;
   grid-row: 1/2;
   margin-top: -15%;
   margin-left: -9%;
 }
-
+*/
+/*
 .formitem {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -2267,6 +2314,7 @@ input:checked + .roundbutton:before {
   grid-row: 3/4;
   padding-bottom: 70px;
 }
+*/
 
 /*COLLAPSIBLE BOX - https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_collapsible */
 
@@ -2302,7 +2350,7 @@ input:checked + .roundbutton:before {
   grid-column: 2/3;
   grid-row: 1/2;
   width: 80%;
-  height: 110%;
+  height: auto;
   margin-left: 10%;
   font-family: "Roboto Mono", monospace;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
