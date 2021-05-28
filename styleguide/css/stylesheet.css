@@ -923,35 +923,11 @@ td img {
   width: 82%;
 }
 
-/*
-.kodeboks1 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  width: 80%;
-  height: auto;
-  padding: 10px;
-  font-family: "Roboto Mono", monospace;
-  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-}
-
-*/
 .gridpic {
   width: 80%;
   height: auto;
   align-content: center;
 }
-
-/*
-.pink22 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  padding-top: 4.5%;
-  width: 80%;
-  height: 60px;
-  background-color: #BB86FC;
-  margin-left: 10%;
-}
-*/
 
 .kode-overskrift {
   grid-column: 2/3;
@@ -959,14 +935,6 @@ td img {
   margin-top: -15%;
   margin-left: -9%;
 }
-
-/*
-.wrapper-box {
-  padding-bottom: 70px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-*/
 
 /*KNAPPER*/
 
